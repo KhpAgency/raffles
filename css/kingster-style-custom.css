@@ -5052,6 +5052,23 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	float: left;
 }
 
+/* index end  */
+
+/* programmes start  */
+.programmes-h5{
+	margin-top: 10px !important;
+	font-weight: 600 !important;
+	font-size: 1.17rem !important;
+}
+/* programmes end  */
+
+/* contact start */
+.labels{
+	color: #747474;
+}
+/* contcat end */
+
+
 @keyframes shake {
 
 	0%,
