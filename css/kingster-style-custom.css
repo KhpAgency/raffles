@@ -184,7 +184,7 @@ textarea {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	a background-position: center;
+	background-position: center;
 }
 
 .gdlr-core-blockquote-item .gdlr-core-blockquote-item-content {
@@ -431,7 +431,7 @@ textarea {
 }
 
 .gdlr-core-blog-widget .gdlr-core-blog-title {
-	margin-bottom 0px;
+	margin-bottom: 0px;
 }
 
 ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list {
