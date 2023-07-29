@@ -721,21 +721,61 @@ input[type="reset"]:focus {
 
 /* ----- New CSS ----- */
 
+
+/* Color Codes */
+
+:root {
+	--orange: #E98023;
+	--black: #1D1D1D;
+	--grey: #797B80;
+	--green: #3db166;
+}
+
+/* End Color Codes */
+
+
 /* Foundation Studies Page */
 
 .study-head {
 	position: relative !important;
 	bottom: 450px;
-	left: 500px;
+	left: 430px;
 }
 
 .border-study {
-	border-color: #3db166 !important;
+	border-color: var(--green) !important;
 	border-bottom-width: 5px !important;
 	position: relative;
 	left: 20px;
 	max-width: 285px;
 
+}
+
+.titlestyle {
+	font-size: 24px !important;
+	font-style: normal !important;
+	text-transform: none !important;
+	letter-spacing: 0px !important;
+	color: var(--orange) !important;
+}
+
+.prg-width {
+	width: 1200px !important;
+}
+
+.p-color {
+	font-size: 18px;
+	text-transform: none;
+	color: white;
+}
+
+.font-css {
+	color: var(--black);
+	font-size: 20px;
+}
+
+.titles-css {
+	color: var(--orange) !important ;
 }
 
 
@@ -6013,8 +6053,9 @@ body .tribe-bar-views-inner {
 	width: 36%;
 }
 
+
 .kingster-body a.tribe-events-read-more {
-	background: #222;
+	background: var(--orange);
 	color: #fff;
 	padding: 13px 22px;
 	font-size: 12px;
@@ -6308,23 +6349,21 @@ body .tribe-bar-views-inner {
 }
 
 .submit-button {
-<<<<<<< Updated upstream
-    font-size: 18px !important;
-    font-weight: 500 !important;
-	text-transform: uppercase;	
-    letter-spacing: 0.8px;
-    padding: 15px;
-    width: 100%;
-    display: block;
-    -webkit-appearance: none;
-    background-color: #EB8223 !important;
-    border: 0;
-    color: #fff;
-    font-style: normal !important;
-    cursor: pointer;
-    font-style: normal;
-=======
-	font-size: 15px;
+	<<<<<<< Updated upstream font-size: 18px !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	padding: 15px;
+	width: 100%;
+	display: block;
+	-webkit-appearance: none;
+	background-color: #EB8223 !important;
+	border: 0;
+	color: #fff;
+	font-style: normal !important;
+	cursor: pointer;
+	font-style: normal;
+	=======font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 0.8px;
 	padding: 15px;
@@ -6337,7 +6376,7 @@ body .tribe-bar-views-inner {
 	font-style: normal !important;
 	cursor: pointer;
 	font-style: normal;
->>>>>>> Stashed changes
+	>>>>>>>Stashed changes
 }
 
 .gdlr-core-portfolio-thumbnail-image-wrap img {

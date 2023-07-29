@@ -296,6 +296,9 @@ textarea {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	padding-top: 0.6em;
+	font-size: 24px;
+	border-bottom-color: var(--orange);
+	border-bottom-width: 2px;
 }
 
 .gdlr-core-personnel-info-item .gdlr-core-personnel-info-item-head {
@@ -518,6 +521,7 @@ ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a:before {
 	font-size: 19px;
 	margin-bottom: 14px;
 	font-weight: 700;
+	color: var(--orange);
 }
 
 .gdlr-core-event-item-list.gdlr-core-style-grid .gdlr-core-event-item-content-wrap {
@@ -2262,11 +2266,11 @@ body .nav-links>a:hover {
 
 .gdlr-core-event-item-list .gdlr-core-event-item-title a,
 .gdlr-core-event-item-list .gdlr-core-event-item-title a:hover {
-	color: #182847;
+	color: var(--orange);
 }
 
 .gdlr-core-event-item .gdlr-core-event-item-info-wrap {
-	color: #50bd77;
+	color: var(--green);
 }
 
 .gdlr-core-portfolio-single-nav,
