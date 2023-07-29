@@ -160,6 +160,9 @@
 .gdlr-core-column-first {
 	clear: right;
 }
+.gdlr-core-column-first-left {
+	clear: left;
+}
 
 .gdlr-core-pbf-wrapper {
 	clear: both;
