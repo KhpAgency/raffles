@@ -112,6 +112,11 @@
 	width: 50%;
 }
 
+.gdlr-core-column-20-left {
+	float: left;
+	width: 50%;
+}
+
 .gdlr-core-column-24 {
 	float: left;
 	width: 40%;
@@ -153,7 +158,7 @@
 }
 
 .gdlr-core-column-first {
-	clear: left;
+	clear: right;
 }
 
 .gdlr-core-pbf-wrapper {

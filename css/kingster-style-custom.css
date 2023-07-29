@@ -525,7 +525,7 @@ ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a:before {
 }
 
 .gdlr-core-event-item-list.gdlr-core-style-grid .gdlr-core-event-item-content-wrap {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .gdlr-core-event-item-list.gdlr-core-style-grid .gdlr-core-event-item-info {
@@ -1208,7 +1208,7 @@ blockquote {
 }
 
 .kingster-footer-wrapper .kingster-widget-title {
-	font-size: 17px;
+	font-size: 22px;
 }
 
 .kingster-footer-wrapper .kingster-widget-title {
@@ -1829,11 +1829,11 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .kingster-footer-wrapper {
-	background-color: #181818;
+	background-color: var(--lightgrey);
 }
 
 .kingster-footer-wrapper .kingster-widget-title {
-	color: #ffffff;
+	color: var(--orange);
 }
 
 .kingster-footer-wrapper h1,
@@ -1846,7 +1846,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .kingster-footer-wrapper .kingster-widget-title {
-	border-bottom-color: #EB8223;
+	border-bottom-color: var(--black);
 }
 
 .kingster-footer-wrapper {
@@ -1865,11 +1865,11 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .kingster-footer-wrapper a {
-	color: #8d8d8d;
+	color: var(--black);
 }
 
 .kingster-footer-wrapper a:hover {
-	color: #ffffff;
+	color: var(--orange);
 }
 
 .kingster-footer-wrapper,

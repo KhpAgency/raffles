@@ -777,19 +777,21 @@ input[type="reset"]:focus {
 
 .titles-css {
 	color: var(--orange) !important;
+	font-size: 30px !important;
+	font-family: 'AvantGarde Bk BT' !important;
 }
-
 
 /* SUBSCRIPTION BLOCK */
 .subscription-block {
-    width: 75%;
-    display: flex;
-    position: relative;
-    z-index: 2;
-    bottom: -85px;
-    flex-direction: column;
-    justify-content: center;
-    left: 235px;
+	width: 75%;
+	margin-top: -100px;
+	display: flex;
+	position: relative;
+	z-index: 2;
+	bottom: -85px;
+	flex-direction: column;
+	justify-content: center;
+	left: 235px;
 }
 
 .subscription-block .image {
@@ -808,7 +810,7 @@ input[type="reset"]:focus {
 	width: 100%;
 	display: flex;
 	padding: 70px 50px;
-	background: #1B89BC;
+	background: var(--black);
 	position: relative;
 	border-radius: 20px;
 }
@@ -841,6 +843,8 @@ input[type="reset"]:focus {
 	text-align: center;
 	font-size: 1.5rem;
 	float: left;
+	line-height: 35px;
+	margin-top: -5px;
 }
 
 .subscription-block .subscribe-box form {
@@ -863,22 +867,33 @@ input[type="reset"]:focus {
 	display: inline-block;
 	height: 56px;
 	line-height: 56px;
-	background: #215BA4;
+	background: var(--orange);
 	color: white;
 	border: none;
-	padding: 0 40px;
+	padding: 0 90px;
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 400;
 	border-radius: 56px;
 	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.16);
 }
 
 .subscription-block .subscribe-box form input[type=submit]:hover {
 	background: white;
-	color: #215BA4;
+	color: var(--orange);
 	transition: ease-in-out 0.7s;
 }
 
+
+
+/* Footer CSS */
+
+
+.bullet-points {
+	list-style-type: disc !important;
+	color: var(--orange);
+	position: relative;
+	left: 20px;
+}
 
 
 
@@ -2482,7 +2497,7 @@ body.admin-bar .kingster-fixed-navigation.kingster-style-slide {
 	overflow: hidden;
 }
 
-.kingster-footer-container{
+.kingster-footer-container {
 	margin-top: 100px;
 }
 
