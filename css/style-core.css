@@ -740,7 +740,7 @@ input[type="reset"]:focus {
 .study-head {
 	position: relative !important;
 	bottom: 450px;
-	right: 185px;
+	left: 480px;
 }
 
 .border-study {
@@ -761,7 +761,7 @@ input[type="reset"]:focus {
 }
 
 .prg-width {
-	width: 1200px !important;
+	width: 1350px !important;
 }
 
 .p-color {
@@ -781,6 +781,13 @@ input[type="reset"]:focus {
 	font-family: 'AvantGarde Bk BT' !important;
 }
 
+.mrg-btn{
+	margin-bottom: -60px;
+}
+
+.mrg-lft{
+	margin-left: -445px;
+}
 
 
 /* End Foundation Studies Page */
@@ -870,6 +877,12 @@ input[type="reset"]:focus {
 
 
 /* Start Fashion Management Page */
+
+.study-head2 {
+	position: relative !important;
+	bottom: 450px;
+	right: 120px;
+}
 
 .h3-css2 {
 	font-size: 35px !important;
