@@ -875,7 +875,8 @@ input[type="reset"]:focus {
 
 /* start contact page */
 .custom-hr{
-	
+	margin: 0 30% 0 30%;
+    border-bottom: 2px solid;
 }
 /* end contact page */
 
