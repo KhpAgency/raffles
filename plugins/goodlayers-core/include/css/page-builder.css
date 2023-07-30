@@ -1259,7 +1259,7 @@
 
 /* column service item */
 .gdlr-core-column-service-item .gdlr-core-column-service-title {
-	font-size: 14px;
+	font-size: 1rem;
 	line-height: 1.55;
 	font-weight: 600;
 	text-transform: uppercase;

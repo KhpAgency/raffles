@@ -871,17 +871,6 @@ input[type="reset"]:focus {
 
 /* Start Fashion Management Page */
 
-.grid-container2 {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 15px;
-	margin: 60px 0 -45px 0;
-}
-
-.mrg-top {
-	margin-top: -15px !important;
-}
-
 .h3-css2 {
 	font-size: 35px !important;
 	font-weight: 600 !important;
