@@ -873,20 +873,26 @@ input[type="reset"]:focus {
 
 /* End Fashion Design Page */
 
+/* start contact page */
+.custom-hr{
+	
+}
+/* end contact page */
+
 
 /* SUBSCRIPTION BLOCK */
 .subscription-block {
-	width: 75%;
-	margin-top: -100px;
-	display: flex;
-	position: relative;
-	z-index: 2;
-	bottom: -85px;
-	flex-direction: column;
-	justify-content: center;
-	left: 235px;
+    /* width: 75%; */
+    margin-top: -100px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    bottom: -85px;
+    flex-direction: column;
+    justify-content: center;
+    /* left: 235px; */
+    margin: 0px 8% 0px 8%;
 }
-
 .subscription-block .image {
 	width: 100%;
 	display: block;

@@ -5037,13 +5037,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 .p-width {
-	width: 85%;
+	width: 75%;
 	text-align: justify;
 }
 .insta-icon {
 	position: relative;
     color: #EB8223;
-	left: 30%;
+	left: 28%;
     font-size: 90px;
     float: left;
 }
@@ -5052,8 +5052,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	border-left: 3px solid #EB8223;
 	height: 94px;
 	position: relative;
-	left: 31.5%;
+	left: 29.5%;
 	float: left;
+}
+
+.igdiv{
+	margin-top: 5%;
+    margin-bottom: 8%;
 }
 
 /* index end  */
