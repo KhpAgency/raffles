@@ -3,17 +3,17 @@
 
 .gallery-cell {
     width: 55%;
-    height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    counter-increment: gallery-cell;
+    height: 400px;
+    margin-right: 5%;
+    /* background: #8C8; */
+    /* counter-increment: gallery-cell; */
 }
 
 /* cell number */
 .gallery-cell:before {
     display: block;
     text-align: center;
-    content: counter(gallery-cell);
+    /* content: counter(gallery-cell); */
     line-height: 200px;
     font-size: 80px;
     color: white;
