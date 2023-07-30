@@ -111,10 +111,23 @@
 	float: left;
 	width: 33.3333%;
 }
+.gdlr-core-column-20-fund {
+	float: right;
+	width: 33.3333%;
+}
 
 .gdlr-core-column-20-left {
 	float: left;
 	width: 50%;
+}
+
+.gdlr-core-column-3-rows {
+	float: right;
+	width: 33%;
+}
+.gdlr-core-column-3-rows-left {
+	float: left;
+	width: 33%;
 }
 
 .gdlr-core-column-24 {
@@ -162,6 +175,9 @@
 }
 .gdlr-core-column-first-left {
 	clear: left;
+}
+.gdlr-core-column-3-row-left {
+	clear: right;
 }
 
 .gdlr-core-pbf-wrapper {
