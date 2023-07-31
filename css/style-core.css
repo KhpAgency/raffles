@@ -944,6 +944,45 @@ input[type="reset"]:focus {
 /* End Fashion Management Page */
 
 
+/* Start Jewelry Design Page */
+
+.grid-container-3rows {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 34px;
+	margin: 60px 0px -40px 0px;
+}
+
+.grid-item-3rows {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.grid-item-3rows img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 100px;
+}
+
+.grid-item-3rows p {
+	margin: 0;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'AvantGarde Bk BT';
+	color: var(--black);
+}
+
+
+.jewelry-img{
+background-position-y: -30px;
+}
+
+/* End Jewelry Design Page */
+
+
 /* Start Contact Page */
 .custom-hr {}
 
