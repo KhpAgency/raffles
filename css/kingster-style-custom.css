@@ -4733,6 +4733,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_6 {
 	border-color: #EB8223;
 	border-bottom-width: 4px;
+	width: 106%;
 }
 
 #div_983a_7 {
@@ -4748,15 +4749,20 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_10 {
-	background-color: #192f59;
+	background-color: #202020;
+}
+#div_983a_10b {
+    background-image: url(../img/about/Background\ 1520x600-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#div_983a_11 {
+/* #div_983a_11 {
 	opacity: 0.5;
-	background-image: url(../upload/coming-soon.jpg);
+	background-color: #202020;
 	background-size: cover;
 	background-position: center;
-}
+} */
 
 #div_983a_12 {
 	border-width: 0px;
@@ -4818,14 +4824,25 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	color: #EB8223;
 }
 #h3_983a_3b {
-	font-size: 32px;
+	font-size: 34px;
 	font-weight: 600;
 	letter-spacing: 0px;
 	text-transform: none;
 	color: white;
+	margin-bottom: 7%;
 }
 
+.sense-col{
+	border-left: white solid;
+    border-right: white solid;
+	padding: 0 1%;
+	margin: 0 1%;
+	height: 390px;
+}
 
+.mtop15{
+	margin-top: 15%;
+}
 
 #div_983a_20 {
 	font-size: 20px;
@@ -4846,7 +4863,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_24 {
-	background-color: #f2f2f2;
+    background-image: url(../img/about/Background\ 1520x600-01.png);
 }
 
 #div_983a_25 {
@@ -4862,6 +4879,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	font-weight: 600;
 	letter-spacing: 0px;
 	text-transform: none;
+	color: var(--orange);
 }
 
 #div_983a_27 {
@@ -4870,9 +4888,8 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_28 {
-	background-image: url(../upload/nathan-dumlao-572047-unsplash.jpg);
+	background-image: url(../img/about/about\ us\ 4-02.png);
 	background-size: cover;
-	background-position: center;
 }
 
 #div_983a_29 {
@@ -4880,7 +4897,10 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_30 {
-	background-color: #f2f2f2;
+	background-color: #202020;
+}
+#div_983a_30b {
+	background-image: url(../img/about/Background\ 1520x600-01.png);
 }
 
 #div_983a_31 {
@@ -4894,7 +4914,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_33 {
-	background-color: #f2f2f2;
+	background-color: #202020;
 }
 
 #div_983a_34 {
@@ -4910,6 +4930,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	font-weight: 600;
 	letter-spacing: 0px;
 	text-transform: none;
+	color: var(--orange);
 }
 
 #div_983a_36 {
@@ -4946,6 +4967,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	font-weight: 600;
 	letter-spacing: 0px;
 	text-transform: none;
+	color: var(--orange);
 }
 
 #div_983a_43 {
@@ -5089,6 +5111,28 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 .centerdiv{
 	display: grid;
     place-content: center;
+}
+.cheif-img {
+    /* width: 75%; */
+    margin-left: -20%;
+    padding-left: 25%;
+}
+.mleft-5{
+	margin-left: -5%;
+}
+.vision{
+	margin: 70px 0px 0px 50px;
+}
+.vision-img{
+	margin-left: -40px;
+    padding: 8% 0;
+}
+.objective-img{
+	margin-left: 150px;
+    padding: 8% 0;
+}
+.values{
+	margin: 170px 0px 0px 50px;
 }
 /* about end  */
 
