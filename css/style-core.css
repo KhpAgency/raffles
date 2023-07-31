@@ -772,7 +772,7 @@ input[type="reset"]:focus {
 
 .font-css {
 	color: var(--black);
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 .titles-css {
@@ -939,8 +939,6 @@ input[type="reset"]:focus {
 }
 
 
-
-
 /* End Fashion Management Page */
 
 
@@ -976,8 +974,8 @@ input[type="reset"]:focus {
 }
 
 
-.jewelry-img{
-background-position-y: -30px;
+.jewelry-img {
+	background-position-y: -30px;
 }
 
 /* End Jewelry Design Page */
@@ -992,9 +990,23 @@ background-position-y: -30px;
 }
 
 
-
 /* End Interior Design Page */
 
+/* Start Visual Communication Page */
+
+.h3-vis{
+position: relative !important;
+bottom: 20px !important;
+font-size: 45px !important;
+}
+
+
+.center-grid{
+	display: grid;
+	place-content: center;
+}
+
+/* End Visual Communication Page */
 
 /* Start Contact Page */
 .custom-hr {}
