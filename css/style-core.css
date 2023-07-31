@@ -982,6 +982,19 @@ background-position-y: -30px;
 
 /* End Jewelry Design Page */
 
+/* Start Interior Design Page */
+
+.grid-container-intr {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	margin: 70px 0 -30px 0;
+}
+
+
+
+/* End Interior Design Page */
+
 
 /* Start Contact Page */
 .custom-hr {}
