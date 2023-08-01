@@ -4905,6 +4905,9 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_30 {
 	background-color: #202020;
 }
+#div_983a_30vis {
+	background-color: var(--lightgrey);
+}
 #div_983a_30b {
 	background-image: url(../img/about/Background\ 1520x600-01.png);
 }
