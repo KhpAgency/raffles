@@ -1017,7 +1017,10 @@ font-size: 45px !important;
 /* End Visual Communication Page */
 
 /* Start Contact Page */
-.custom-hr {}
+.custom-hr {
+	border-top: solid 3px;
+    margin: 0% 27.5%;
+}
 
 /* End Contact Page */
 
@@ -1324,16 +1327,15 @@ font-size: 45px !important;
 }
 
 .kingster-body .kingster-top-bar .kingster-top-bar-right-button {
-	background: #3db166;
 	color: #fff;
 }
 
 .kingster-body .kingster-top-bar .kingster-top-bar-right-button {
-	display: inline-block;
-	/* font-weight: bold; */
-	padding-left: 23px;
-	padding-right: 23px;
-	margin-left: 23px;
+    display: inline-block;
+    /* font-weight: bold; */
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: -4px;
 }
 
 

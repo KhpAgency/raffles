@@ -1275,8 +1275,11 @@ blockquote {
 	color: #ffffff;
 }
 
-.kingster-body .kingster-top-bar .kingster-top-bar-right-button {
+/* .kingster-body .kingster-top-bar .kingster-top-bar-right-button {
 	background-color: #EB8223;
+} */
+.active-btn{
+	background-color: var(--orange);
 }
 
 .kingster-top-bar .kingster-top-bar-right-social a {
@@ -5111,6 +5114,10 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 .p-about2{
 	text-align: center !important;
 }
+.p-about3{
+	color: #000;
+	text-align: center !important;
+}
 .centerdiv{
 	display: grid;
     place-content: center;
@@ -5146,6 +5153,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	font-size: 1.17rem !important;
 }
 /* programmes end  */
+
+/* collaboration start  */
+.centerdiv2{
+	display: flex;
+	place-content: center;
+}
+/* collaboration end  */
 
 
 /* contact start */
