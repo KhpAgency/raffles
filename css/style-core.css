@@ -1014,6 +1014,13 @@ font-size: 45px !important;
 	height: 617px;
 }
 
+.vis-img-size {
+	max-width: 130%;
+    height: 100%;
+    margin-left: -41%;
+    margin-top: 2%;
+}
+
 /* End Visual Communication Page */
 
 /* Start Contact Page */
