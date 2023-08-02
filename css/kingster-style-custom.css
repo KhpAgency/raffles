@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'ITC Avant Garde Gothic';
+	src: local('ITC Avant Garde Gothic Demi'), local('ITC-Avant-Garde-Gothic-Demi'),
+		url('../fonts/ITCAvantGardeStd-Demi.woff2') format('woff2'),
+		url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
+		url('../fonts/ITCAvantGardeStd-Demi.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 .txt-ar {
 	text-align: right;
 }
@@ -256,7 +267,8 @@ textarea {
 }
 
 .gdlr-core-title-item.gdlr-core-left-align .gdlr-core-title-item-title {
-	float: left;
+    float: left;
+    font-family: 'ITC Avant Garde Gothic';
 }
 
 .gdlr-core-title-item.gdlr-core-left-align .gdlr-core-title-item-divider {
@@ -1343,7 +1355,7 @@ blockquote {
 /* .kingster-body .kingster-top-bar .kingster-top-bar-right-button {
 	background-color: #EB8223;
 } */
-.active-btn{
+.active-btn {
 	background-color: var(--orange);
 }
 
@@ -4832,10 +4844,10 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #h3_983a_22 {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    text-transform: none;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0px;
+	text-transform: none;
 }
 
 #div_983a_5 {
@@ -4859,6 +4871,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_9 {
 	padding: 90px 0px 200px 0px;
 }
+
 #div_983a_9a {
 	padding: 90px 0px 60px 0px;
 }
@@ -4866,10 +4879,11 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_10 {
 	background-color: #202020;
 }
+
 #div_983a_10b {
-    background-image: url(../img/about/Background\ 1520x600-02.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/about/Background\ 1520x600-02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* #div_983a_11 {
@@ -4938,6 +4952,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	text-transform: none;
 	color: #EB8223;
 }
+
 #h3_983a_3b {
 	font-size: 34px;
 	font-weight: 600;
@@ -4947,15 +4962,15 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	margin-bottom: 7%;
 }
 
-.sense-col{
+.sense-col {
 	border-left: white solid;
-    border-right: white solid;
+	border-right: white solid;
 	padding: 0 1%;
 	margin: 0 1%;
 	height: 390px;
 }
 
-.mtop15{
+.mtop15 {
 	margin-top: 15%;
 }
 
@@ -4978,7 +4993,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_24 {
-    background-image: url(../img/about/Background\ 1520x600-01.png);
+	background-image: url(../img/about/Background\ 1520x600-01.png);
 }
 
 #div_983a_25 {
@@ -5014,9 +5029,11 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_30 {
 	background-color: #202020;
 }
+
 #div_983a_30vis {
 	background-color: var(--lightgrey);
 }
+
 #div_983a_30b {
 	background-image: url(../img/about/Background\ 1520x600-01.png);
 }
@@ -5196,12 +5213,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	width: 85%;
 	text-align: justify;
 }
+
 .insta-icon {
 	position: relative;
-    color: #EB8223;
+	color: #EB8223;
 	left: 28%;
-    font-size: 90px;
-    float: left;
+	font-size: 90px;
+	float: left;
 }
 
 .vl {
@@ -5212,73 +5230,86 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	float: left;
 }
 
-.igdiv{
+.igdiv {
 	margin-top: 2%;
-    margin-bottom: 8%;
+	margin-bottom: 8%;
 }
 
 /* index end  */
 
 /* about start  */
-.p-about{
+.p-about {
 	color: #000;
 }
-.p-about2{
+
+.p-about2 {
 	text-align: center !important;
 }
-.p-about3{
+
+.p-about3 {
 	color: #000;
 	text-align: center !important;
 }
-.centerdiv{
+
+.centerdiv {
 	display: grid;
-    place-content: center;
+	place-content: center;
 }
+
 .cheif-img {
-    /* width: 75%; */
-    margin-left: -20%;
-    padding-left: 25%;
+	/* width: 75%; */
+	margin-left: -20%;
+	padding-left: 25%;
 }
-.mleft-5{
+
+.mleft-5 {
 	margin-left: -5%;
 }
-.vision{
+
+.vision {
 	margin: 70px 0px 0px 50px;
 }
-.vision-img{
+
+.vision-img {
 	margin-left: -40px;
-    padding: 8% 0;
+	padding: 8% 0;
 }
-.objective-img{
+
+.objective-img {
 	margin-left: 150px;
-    padding: 8% 0;
+	padding: 8% 0;
 }
-.values{
+
+.values {
 	margin: 170px 0px 0px 50px;
 }
+
 /* about end  */
 
 /* programmes start  */
-.programmes-h5{
+.programmes-h5 {
 	margin-top: 10px !important;
 	font-weight: 600 !important;
 	font-size: 1.17rem !important;
 	color: var(--orange) !important;
 }
+
 /* programmes end  */
 
 /* collaboration start  */
-.centerdiv2{
+.centerdiv2 {
 	display: flex;
 	place-content: center;
 }
+
 /* collaboration end  */
 
 
 /* contact start */
-.labels{
+.labels {
 	color: #747474;
 }
+
 /* contcat end */
 
 
