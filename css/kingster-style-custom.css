@@ -5,6 +5,10 @@
 .kingster-page-title-wrap {
 	background-image: url(/img/Programs/Slider-14.png);
 }
+.kingster-page-title-wrap2 {
+	background-image: url(/img/Interior/Slider.png);
+	height: 400px;
+}
 
 .kingster-header-wrap.kingster-header-style-plain {
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
@@ -1024,6 +1028,67 @@ body.kingster-boxed .kingster-fixed-footer .kingster-copyright-wrapper {
 	opacity: 0;
 }
 
+
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-title-content {
+	padding-top: 60px;
+}
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-title-content {
+	padding-bottom: 60px;
+}
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-caption {
+	margin-bottom: 4px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title {
+	text-transform: none;
+}
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-title {
+	font-size: 43px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title {
+	font-weight: 700;
+}
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-title {
+	letter-spacing: 0px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-caption {
+	text-transform: none;
+}
+
+.kingster-page-title-wrap2.kingster-style-custom .kingster-page-caption {
+	font-size: 21px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-caption {
+	font-weight: 400;
+}
+
+.kingster-page-title-wrap2 .kingster-style-custom .kingster-page-caption {
+	letter-spacing: 0px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-top-gradient {
+	height: 413px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-bottom-gradient {
+	height: 413px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-overlay {
+	opacity: 0;
+}
+
+
+
+
 .kingster-not-found-wrap .kingster-not-found-background {
 	opacity: 0.27;
 }
@@ -1596,6 +1661,50 @@ body.kingster-boxed .kingster-body-wrapper,
 	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
+
+
+
+.kingster-page-title-wrap2 .kingster-page-title {
+	color: var(--orange);
+	position: relative;
+	top: 130px;
+}
+
+.kingster-page-title-wrap2 .kingster-page-caption {
+	color: #EB8223;
+}
+
+.kingster-page-title-wrap2 .kingster-page-caption .woocommerce-breadcrumb,
+.kingster-page-title-wrap2 .kingster-page-caption .woocommerce-breadcrumb a {
+	color: #EB8223;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-event-time,
+.kingster-page-title-wrap2 .kingster-page-title-event-link a,
+.kingster-page-title-wrap2 .kingster-page-title-event-link a:hover {
+	color: #EB8223;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-overlay {
+	background-color: #ffffff;
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-top-gradient {
+	background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: -o-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.kingster-page-title-wrap2 .kingster-page-title-bottom-gradient {
+	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+
+
 
 .kingster-body,
 .kingster-body span.wpcf7-not-valid-tip {
