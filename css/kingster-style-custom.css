@@ -3,7 +3,7 @@
 }
 
 .kingster-page-title-wrap {
-	background-image: url(../upload/page-title.jpg);
+	background-image: url(/img/Programs/Slider-14.png);
 }
 
 .kingster-header-wrap.kingster-header-style-plain {
@@ -5154,6 +5154,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	margin-top: 10px !important;
 	font-weight: 600 !important;
 	font-size: 1.17rem !important;
+	color: var(--orange) !important;
 }
 /* programmes end  */
 
