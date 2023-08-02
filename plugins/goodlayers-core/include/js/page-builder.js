@@ -1133,10 +1133,14 @@
 			var elem = filter_elem.filter('.gdlr-core-sly-slider');
 		}	
 	
-		elem.addClass('gdlr-core-after-init').each(function(){
-			var sly_slider = $(this);
-
-			sly_slider.sly({
+		$(document).ready(function() {
+			// Initialize the Sly slider
+			var $frame = $('.gdlr-core-sly-slider');
+			var $slidee = $frame.children('ul.slides');
+			var $wrap = $frame.parent();
+	
+			// Set options for Sly slider
+			var options = {
 				horizontal: 1,
 				itemNav: 'basic',
 				smart: 1,
@@ -1146,15 +1150,40 @@
 				releaseSwing: 1,
 				startAt: 0,
 				scrollBy: 1,
-				speed: 1000,
+				speed: 4000,
 				elasticBounds: 1,
 				easing: 'easeOutQuart',
 				dragHandle: 1,
 				dynamicHandle: 1,
 				clickBar: 1,
-				scrollBar: $(this).siblings('.gdlr-core-sly-scroll')
+				scrollBar: $wrap.find('.gdlr-core-sly-scroll')
+			};
+	
+			// Call the Sly slider with the options
+			var sly_slider = $frame.sly(options);
+	
+			// Function to automatically move the slider
+			function autoSlide() {
+				sly_slider.sly('next', 1); // Move to the next slide (change the 1 to the desired number of slides to advance)
+			}
+	
+			// Set the interval for automatic sliding (change the 5000 to the desired interval in milliseconds)
+			var interval = setInterval(autoSlide, 2000);
+	
+			// Pause the automatic sliding when the mouse is over the slider
+			$frame.on('mouseenter', function() {
+				clearInterval(interval);
 			});
-			$(window).on('resize gdlr-core-element-resize', function(){ sly_slider.sly('reload'); });
+	
+			// Resume automatic sliding when the mouse leaves the slider
+			$frame.on('mouseleave', function() {
+				interval = setInterval(autoSlide, 2000);
+			});
+	
+			// Reload the Sly slider on window resize
+			$(window).on('resize gdlr-core-element-resize', function() {
+				sly_slider.sly('reload');
+			});
 		});
 
 		return $(this);
