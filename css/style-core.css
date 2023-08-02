@@ -722,6 +722,23 @@ input[type="reset"]:focus {
 /* ----- New CSS ----- */
 
 
+
+
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic';
+	src: local('ITC Avant Garde Gothic Demi'), local('ITC-Avant-Garde-Gothic-Demi'),
+		url('../fonts/ITCAvantGardeStd-Demi.woff2') format('woff2'),
+		url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
+		url('../fonts/ITCAvantGardeStd-Demi.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/* End Fonts */
+
+
 /* Color Codes */
 
 :root {
@@ -778,7 +795,7 @@ input[type="reset"]:focus {
 .titles-css {
 	color: var(--orange) !important;
 	font-size: 30px !important;
-	font-family: 'ITC Avant Garde Gothic'!important;
+	font-family: 'ITC Avant Garde Gothic' !important;
 }
 
 .mrg-btn {
@@ -1034,6 +1051,21 @@ font-size: 45px !important;
 }
 
 /* End Visual Communication Page */
+
+
+/* End Visual Communication Page */
+
+
+.gallery-mrg{
+	margin-left: 92px;
+    margin-top: 20px;
+}
+
+
+
+
+/* End Visual Communication Page */
+
 
 /* Start Contact Page */
 .custom-hr {

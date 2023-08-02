@@ -1,14 +1,3 @@
-@font-face {
-	font-family: 'ITC Avant Garde Gothic';
-	src: local('ITC Avant Garde Gothic Demi'), local('ITC-Avant-Garde-Gothic-Demi'),
-		url('../fonts/ITCAvantGardeStd-Demi.woff2') format('woff2'),
-		url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
-		url('../fonts/ITCAvantGardeStd-Demi.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
 .txt-ar {
 	text-align: right;
 }
