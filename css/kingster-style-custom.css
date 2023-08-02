@@ -263,7 +263,8 @@ textarea {
 }
 
 .gdlr-core-title-item.gdlr-core-left-align .gdlr-core-title-item-title {
-	float: left;
+    float: left;
+    font-family: 'ITC Avant Garde Gothic';
 }
 
 .gdlr-core-title-item.gdlr-core-left-align .gdlr-core-title-item-divider {
