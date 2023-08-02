@@ -6499,11 +6499,11 @@ ul.gdlr-core-category-background-widget li.gdlr-core-with-bg a:hover {
 }
 
 .gdlr-core-flexslider .flex-direction-nav .flex-nav-prev {
-	left: 35px;
+	left: 75px;
 }
 
 .gdlr-core-flexslider .flex-direction-nav .flex-nav-next {
-	right: 35px;
+	right: 75px;
 }
 
 .gdlr-core-flexslider[data-nav="both"] .flex-direction-nav li {

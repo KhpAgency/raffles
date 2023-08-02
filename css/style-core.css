@@ -1011,14 +1011,14 @@ input[type="reset"]:focus {
 
 /* Start Visual Communication Page */
 
-.h3-vis{
-position: relative !important;
-bottom: 20px !important;
-font-size: 45px !important;
+.h3-vis {
+	position: relative !important;
+	bottom: 20px !important;
+	font-size: 45px !important;
 }
 
 
-.center-grid{
+.center-grid {
 	display: grid;
 	place-content: center;
 }
@@ -1033,9 +1033,9 @@ font-size: 45px !important;
 
 .vis-img-size {
 	max-width: 130%;
-    height: 100%;
-    margin-left: -41%;
-    margin-top: 2%;
+	height: 100%;
+	margin-left: -41%;
+	margin-top: 2%;
 }
 
 
@@ -1056,9 +1056,52 @@ font-size: 45px !important;
 /* End Visual Communication Page */
 
 
-.gallery-mrg{
-	margin-left: 92px;
-    margin-top: 20px;
+.gallery-mrg {
+	margin-left: 92px !important;
+	margin-top: 20px !important;
+}
+
+.gallery-txt-bg {
+	z-index: 6;
+	background-color: rgb(255, 255, 255);
+	visibility: inherit;
+	transition: none 0s ease 0s;
+	text-align: inherit;
+	line-height: 27px;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	font-size: 16px;
+	white-space: nowrap;
+	min-height: 80px;
+	min-width: 404px;
+	max-height: 121px;
+	max-width: 754px;
+	opacity: 1;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	transform-origin: 50% 50% 0px;
+}
+
+.titles-css2 {
+	color: var(--grey) !important;
+	font-size: 30px !important;
+	font-family: 'ITC Avant Garde Gothic' !important;
+	text-transform: uppercase;
+}
+
+
+.sub-mrg {
+	margin-top: -210px !important;
+}
+
+.height-section {
+	height: 1015px ;
+}
+
+.subscription-block-gal{
+	top: 100px !important;
 }
 
 
@@ -1070,7 +1113,7 @@ font-size: 45px !important;
 /* Start Contact Page */
 .custom-hr {
 	border-top: solid 3px;
-    margin: 0% 27.5%;
+	margin: 0% 27.5%;
 }
 
 /* End Contact Page */
@@ -1296,7 +1339,7 @@ font-size: 45px !important;
 	left: 20px;
 }
 
-.mrg-footer{
+.mrg-footer {
 	margin-top: 55px;
 }
 
@@ -1382,11 +1425,11 @@ font-size: 45px !important;
 }
 
 .kingster-body .kingster-top-bar .kingster-top-bar-right-button {
-    display: inline-block;
-    /* font-weight: bold; */
-    padding-left: 23px;
-    padding-right: 23px;
-    margin-left: -4px;
+	display: inline-block;
+	/* font-weight: bold; */
+	padding-left: 23px;
+	padding-right: 23px;
+	margin-left: -4px;
 }
 
 

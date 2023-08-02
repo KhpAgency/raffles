@@ -6,7 +6,7 @@
 	background-image: url(/img/Programs/Slider-14.png);
 }
 .kingster-page-title-wrap2 {
-	background-image: url(/img/Interior/Slider.png);
+	background-image: url(/img/Gallery/Slider-15.png);
 	height: 400px;
 }
 
@@ -1044,7 +1044,7 @@ body.kingster-boxed .kingster-fixed-footer .kingster-copyright-wrapper {
 }
 
 .kingster-page-title-wrap2 .kingster-page-title {
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 .kingster-page-title-wrap2 .kingster-style-custom .kingster-page-title {
@@ -1668,7 +1668,9 @@ body.kingster-boxed .kingster-body-wrapper,
 .kingster-page-title-wrap2 .kingster-page-title {
 	color: var(--orange);
 	position: relative;
-	top: 130px;
+	top: 125px;
+	left: -5px;
+	font-size: 60px;
 }
 
 .kingster-page-title-wrap2 .kingster-page-caption {
