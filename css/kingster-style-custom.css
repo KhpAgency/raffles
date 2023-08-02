@@ -8,6 +8,8 @@
 .kingster-page-title-wrap2 {
 	background-image: url(/img/Gallery/Slider-15.png);
 	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .kingster-header-wrap.kingster-header-style-plain {
@@ -1667,9 +1669,9 @@ body.kingster-boxed .kingster-body-wrapper,
 
 .kingster-page-title-wrap2 .kingster-page-title {
 	color: var(--orange);
-	position: relative;
-	top: 125px;
-	left: -5px;
+	position: absolute;
+	top: 285px;
+	left: 815px;
 	font-size: 60px;
 }
 
