@@ -1348,6 +1348,18 @@ input[type="reset"]:focus {
 
 
 
+/* Start Admission CSS */
+
+.form-width{
+	width: 1350px;
+}
+
+
+
+/* End Admission CSS */
+
+
+
 /* ----- End New CSS ----- */
 
 /**
@@ -4930,7 +4942,7 @@ ul.sf-menu>.menu-item-language li:last-child {
 }
 
 .wpcf7 select {
-	-webkit-appearance: none;
+	-webkit-appearance: menulist !important;
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
