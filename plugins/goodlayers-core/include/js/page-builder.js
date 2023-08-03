@@ -2214,21 +2214,21 @@
 			var ajax_section = $(this);
 
 			// button click
-			$(this).on('click', 'a', function(){
-				if( $(this).hasClass('gdlr-core-active') || ajax_section.hasClass('gdlr-core-disable') ){
-					return false;
-				}
+			// $(this).on('click', 'a', function(){
+			// 	if( $(this).hasClass('gdlr-core-active') || ajax_section.hasClass('gdlr-core-disable') ){
+			// 		return false;
+			// 	}
 
-				$(this).addClass('gdlr-core-active').siblings().removeClass('gdlr-core-active');
-				ajax_section.addClass('gdlr-core-disable');
+			// 	$(this).addClass('gdlr-core-active').siblings().removeClass('gdlr-core-active');
+			// 	ajax_section.addClass('gdlr-core-disable');
 
-				var name = $(this).attr('data-ajax-name');
-				var value = $(this).attr('data-ajax-value');
+			// 	var name = $(this).attr('data-ajax-name');
+			// 	var value = $(this).attr('data-ajax-value');
 
-				gdlr_core_ajax_action(ajax_section, name, value);
+			// 	gdlr_core_ajax_action(ajax_section, name, value);
 
-				return false;
-			});
+			// 	return false;
+			// });
 
 			// filter changed
 			$(this).on('change', 'select', function(){
