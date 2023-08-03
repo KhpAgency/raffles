@@ -1354,6 +1354,11 @@ input[type="reset"]:focus {
 	width: 1350px;
 }
 
+.terms:hover{
+color: #000 !important;
+text-decoration: underline;
+}
+
 
 
 /* End Admission CSS */
