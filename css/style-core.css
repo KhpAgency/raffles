@@ -1360,9 +1360,7 @@ text-decoration: underline;
 }
 
 .padding-radio{
-	padding: 5px 22px 15px 0px;
-	margin-left: 15px;
-	margin-top: 2px;
+	margin-left: 10px;
 }
 
 
@@ -4946,7 +4944,7 @@ ul.sf-menu>.menu-item-language li:last-child {
 .wpcf7 input,
 .wpcf7 select {
 	font-size: 15px;
-	padding: 15px 22px;
+	padding: 10px 10px;
 	width: 100%;
 	display: block;
 }
