@@ -1359,6 +1359,11 @@ color: #000 !important;
 text-decoration: underline;
 }
 
+.padding-radio{
+	padding: 5px 22px 15px 0px;
+	margin-left: 15px;
+	margin-top: 2px;
+}
 
 
 /* End Admission CSS */
