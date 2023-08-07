@@ -7012,3 +7012,56 @@ body .tribe-bar-views-inner {
 	cursor: pointer;
 	font-style: normal;
 }
+
+
+/* responsive start*/
+@media only screen and (max-width: 767px) {
+	.home-prg {
+		min-width: 500px !important;
+		max-width: 740px !important;
+		white-space: normal !important;
+		font-size: 11px !important;
+		line-height: 15px !important;
+		font-weight: 300 !important;
+		color: #ffffff !important;
+		letter-spacing: 0px !important;
+		font-family: 'Poppins' !important;
+		padding-right: 165px !important;
+	}
+
+	.mrg1 {
+		margin: -25px 0px 0px -120px !important;
+	}
+
+	.mrg2 {
+		margin: -16px 0px 0px -120px !important;
+	}
+
+	.mrg3 {
+		margin: -16px 0px 0px -120px !important;
+	}
+
+	.mrg4 {
+		margin: 65px 0px 0px -120px !important;
+	}
+
+	.height1 {
+		height: 300px !important;
+	}
+
+	.width1 {
+		width: auto !important;
+	}
+
+	.img1 {
+		min-height: auto !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.pad1{
+		padding: 0px 0px 0px 0px !important;
+	}
+}
+
+/* responsive end  */
