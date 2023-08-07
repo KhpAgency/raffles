@@ -7049,6 +7049,10 @@ body .tribe-bar-views-inner {
 		margin-bottom: 15px !important;
 	}
 
+	.mrg6 {
+		margin-top: 35% !important;
+	}
+
 	.height1 {
 		height: 300px !important;
 	}
@@ -7165,7 +7169,7 @@ body .tribe-bar-views-inner {
 		margin: 20px 0px 20px 75px !important;
 		box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.16);
 	}
-	
+
 	.subscription-block .subscribe-box {
 		width: 100%;
 		display: flex;
@@ -7173,6 +7177,24 @@ body .tribe-bar-views-inner {
 		background: var(--black);
 		position: relative;
 		border-radius: 20px;
+	}
+
+	.photo-footer{
+			width: 60% !important;
+			margin-bottom: 30px !important;
+	}
+
+	.subscription-block-home {
+		/* width: 75%; */
+		margin-top: -100px;
+		display: flex;
+		position: relative;
+		z-index: 2;
+		bottom: -160px !important;
+		flex-direction: column;
+		justify-content: center;
+		/* left: 235px; */
+		margin: 0px 8% 0px 8%;
 	}
 
 
