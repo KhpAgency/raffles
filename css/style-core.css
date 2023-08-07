@@ -751,6 +751,28 @@ input[type="reset"]:focus {
 
 /* End Color Codes */
 
+/* Index CSS */
+
+.txt-align {
+	text-align: justify !important;
+}
+
+.home-prg {
+	z-index: 9 !important;
+	min-width: 746px !important;
+	max-width: 746px !important;
+	white-space: normal !important;
+	font-size: 18px !important;
+	line-height: 28px !important;
+	font-weight: 300 !important;
+	color: #ffffff !important;
+	letter-spacing: 0px !important;
+	font-family: 'Poppins' !important;
+
+}
+
+/* End Index CSS */
+
 
 /* Foundation Studies Page */
 
@@ -1097,10 +1119,10 @@ input[type="reset"]:focus {
 }
 
 .height-section {
-	height: 1015px ;
+	height: 1015px;
 }
 
-.subscription-block-gal{
+.subscription-block-gal {
 	top: 100px !important;
 }
 
@@ -1350,16 +1372,16 @@ input[type="reset"]:focus {
 
 /* Start Admission CSS */
 
-.form-width{
+.form-width {
 	width: 1350px;
 }
 
-.terms:hover{
-color: #000 !important;
-text-decoration: underline;
+.terms:hover {
+	color: #000 !important;
+	text-decoration: underline;
 }
 
-.padding-radio{
+.padding-radio {
 	margin-left: 10px;
 }
 
