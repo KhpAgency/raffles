@@ -7030,11 +7030,11 @@ body .tribe-bar-views-inner {
 	}
 
 	.mrg1 {
-		margin: -25px 0px 0px -120px !important;
+		margin: -30px 0px 0px -120px !important;
 	}
 
 	.mrg2 {
-		margin: -16px 0px 0px -120px !important;
+		margin: -21px 0px 0px -120px !important;
 	}
 
 	.mrg3 {
@@ -7045,8 +7045,16 @@ body .tribe-bar-views-inner {
 		margin: 65px 0px 0px -120px !important;
 	}
 
+	.mrg5 {
+		margin-bottom: 15px !important;
+	}
+
 	.height1 {
 		height: 300px !important;
+	}
+
+	.height2 {
+		height: 250px !important;
 	}
 
 	.width1 {
@@ -7059,9 +7067,115 @@ body .tribe-bar-views-inner {
 		padding-right: 0px !important;
 	}
 
-	.pad1{
-		padding: 0px 0px 0px 0px !important;
+	.pad1 {
+		padding: 15px 0px 0px 0px !important;
 	}
+
+	.pad2 {
+		padding: 0px !important;
+	}
+
+	.title1 {
+		font-size: 16px !important;
+	}
+
+	.text1 {
+		font-size: 14px !important;
+	}
+
+	.text2 {
+		font-size: 12px !important;
+	}
+
+	.text3 {
+		font-size: 16px !important;
+		text-align: center !important;
+		margin: 0px 60px !important;
+		padding-top: 20px !important;
+		padding-bottom: 10px !important;
+		line-height: 25px !important;
+	}
+	
+	.button1 {
+		padding: 0px 10px !important;
+	}
+
+	.insta-icon {
+		position: relative;
+		color: #EB8223;
+		left: 0% !important;
+		font-size: 70px !important;
+		float: left;
+	}
+
+	.vl {
+		border-left: 3px solid #EB8223;
+		height: 70px !important;
+		position: relative;
+		left: 4.5% !important;
+		float: left;
+	}
+
+	.insta-text1 {
+		font-size: 40px;
+		font-weight: 300;
+		letter-spacing: 4px !important;
+		text-transform: none;
+		color: #EB8223;
+		margin-bottom: 0px;
+		margin-left: 26% !important;
+		padding-top: 1.5% !important;
+		width: max-content !important;
+	}
+
+	.insta-text2 {
+		font-size: 40px;
+		font-weight: 600;
+		letter-spacing: 1.5px;
+		text-transform: none;
+		color: #EB8223;
+		margin-left: 26% !important;
+		padding-top: 1.5% !important;
+		width: max-content !important;
+	}
+
+	.subscription-block .subscribe-box form input[type=email] {
+		width: 265px;
+		max-width: 100%;
+		height: 40px !important;
+		border: none;
+		padding: 0 30px !important;
+		border-radius: 56px;
+		margin-right: 20px;
+		font-weight: 300;
+		margin: 0px 20px !important;
+	}
+
+	.subscription-block .subscribe-box form input[type=submit] {
+		display: inline-block;
+		height: 40px !important;
+		line-height: 0px;
+		background: var(--orange);
+		color: white;
+		border: none;
+		padding: 0 50px !important;
+		font-size: 14px !important;
+		font-weight: 400;
+		border-radius: 56px;
+		margin: 20px 0px 20px 75px !important;
+		box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.16);
+	}
+	
+	.subscription-block .subscribe-box {
+		width: 100%;
+		display: flex;
+		padding: 0px !important;
+		background: var(--black);
+		position: relative;
+		border-radius: 20px;
+	}
+
+
 }
 
 /* responsive end  */
