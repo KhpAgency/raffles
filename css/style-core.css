@@ -1106,6 +1106,11 @@ input[type="reset"]:focus {
 	transform-origin: 50% 50% 0px;
 }
 
+
+.gallery-imgs{
+	max-height: 800px;
+}
+
 .titles-css2 {
 	color: var(--grey) !important;
 	font-size: 30px !important;
