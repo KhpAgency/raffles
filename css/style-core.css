@@ -7202,7 +7202,18 @@ body .tribe-bar-views-inner {
 		margin: 0px 8% 0px 8%;
 	}
 
+	.insta-image{
+		width: 200px !important;
+		height: 200px !important;
+	}
+
 
 }
 
 /* responsive end  */
+
+/* arabic start  */
+.text-ar1{
+	text-align: right !important;
+}
+/* arabic end  */
