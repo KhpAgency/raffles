@@ -8141,7 +8141,7 @@ ul.gdlr-core-product-sub-category li h3 {
 	/* flexslider */
 	.gdlr-core-flexslider-nav,
 	.gdlr-core-flexslider .flex-direction-nav {
-		display: none;
+		/* display: none; */
 	}
 
 }
@@ -8149,6 +8149,12 @@ ul.gdlr-core-product-sub-category li h3 {
 /*--- mobile landscape style ---*/
 @media only screen and (max-width: 767px) {
 
+	.gdlr-core-flexslider .flex-direction-nav .flex-nav-prev {
+		left: 0px;
+	}
+	.gdlr-core-flexslider .flex-direction-nav .flex-nav-next {
+		right: 0px;
+	}
 	.gdlr-core-hide-in-desktop-tablet {
 		display: block;
 	}
