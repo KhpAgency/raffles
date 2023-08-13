@@ -5023,6 +5023,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	background-color: #202020;
 }
 
+#div_983a_302 {
+	background-image: url(../img/B34A0461.jpg);
+	background-size: cover;
+    background-position: center center;
+	background-repeat: no-repeat;
+}
+
 #div_983a_30vis {
 	background-color: var(--lightgrey);
 }
@@ -5265,6 +5272,11 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	margin-left: -5%;
 }
 
+.mleft-10 {
+	margin-left: -10%;
+}
+
+
 .vision {
 	margin: 70px 0px 0px 50px;
 }
@@ -5281,6 +5293,10 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 
 .values {
 	margin: 170px 0px 0px 50px;
+}
+
+.values2 {
+	margin: 250px 0px 0px 50px;
 }
 
 /* about end  */
