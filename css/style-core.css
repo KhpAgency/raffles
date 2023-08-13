@@ -7039,7 +7039,7 @@ body .tribe-bar-views-inner {
 	}
 
 	.mrg2 {
-		margin: -21px 0px 0px -120px !important;
+		margin: -23px 0px 0px -120px !important;
 	}
 
 	.mrg3 {
@@ -7076,6 +7076,10 @@ body .tribe-bar-views-inner {
 
 	.mrg11{
 		margin-top: -30px !important;
+	}
+
+	.mrg12{
+		margin-top: 15px !important;
 	}
 
 	.height1 {
@@ -7166,6 +7170,11 @@ body .tribe-bar-views-inner {
 		margin: 25px 0px 0px -590px !important;
 	}
 
+	.title3b {
+		font-size: 1.17rem !important;
+		margin: 25px 0px 0px -590px !important;
+	}
+	
 	.title3 {
 		font-size: 25px !important;
 	}
@@ -7212,21 +7221,30 @@ body .tribe-bar-views-inner {
 	.text5 {
 		font-size: 1.1rem !important;
 	}
-
+	
 	.text6 {
 		font-size: 1.1rem !important;
 		text-align: justify !important;
 	}
-
+	
 	.text7 {
 		font-size: 0.95rem !important;
 		text-align: justify !important;
+	}
+	
+	.text8 {
+		font-size: 18px !important;
 	}
 
 	#div_983a_26 {
 		padding-bottom: 0px !important;
 	}
 
+	#div_983a_6 {
+		border-color: #EB8223;
+		border-bottom-width: 4px;
+		width: 76% !important;
+	}
 
 	.button1 {
 		padding: 0px 10px !important;
@@ -7380,7 +7398,13 @@ body .tribe-bar-views-inner {
 	}
 
 	#div_983a_23 {
-		height: 430px !important;
+		height: 380px !important;
+	}
+
+	#div_983a_27 {
+		font-size: 17px;
+		text-transform: none;
+		margin-top: 20px !important;
 	}
 
 	.vision-img {
@@ -7388,6 +7412,10 @@ body .tribe-bar-views-inner {
 	}
 
 	.values {
+		margin: 0px 0px 0px 0px !important;
+	}
+
+	.values3 {
 		margin: 0px 0px 0px 0px !important;
 	}
 
@@ -7404,9 +7432,9 @@ body .tribe-bar-views-inner {
 		padding: 40px 0px 80px 0px !important;
 	}
 
-	#h3_983a_3b {
+	/* #h3_983a_3b {
 		font-size: 30px !important;
-	}
+	} */
 
 	#div_983a_9a {
 		padding: 40px 0px 0px 0px !important;
@@ -7545,12 +7573,12 @@ body .tribe-bar-views-inner {
 	}
 
 	.grid-item img {
-		width: 30px;
-		height: 30px;
+		width: 20px;
+		height: 20px;
 		margin-right: 10px;
 		margin-left: 0px !important;
 	}
-
+	
 	.grid-container-intr {
 		display: inherit !important;
 		grid-template-columns: repeat(2, 1fr);
