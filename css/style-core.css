@@ -745,7 +745,6 @@ input[type="reset"]:focus {
 	--orange: #E98023;
 	--black: #1D1D1D;
 	--grey: #797B80;
-	--green: #3db166;
 	--lightgrey: #ebebeb;
 }
 
@@ -1396,7 +1395,7 @@ input[type="reset"]:focus {
 
 /* Start Arabic CSS */
 
-.logo-ar{
+.logo-ar {
 	float: right !important;
 }
 
@@ -1599,19 +1598,38 @@ input[type="reset"]:focus {
 	direction: rtl;
 }
 
-.form-ar{
+.form-ar {
 	font-family: "GE SS Two";
 	font-weight: 100;
 	font-size: 20px !important;
 }
-.form-ar2{
+
+.form-ar2 {
 	font-family: "GE SS Two";
 	font-weight: 100;
 	font-size: 22px !important;
 }
 
-.section-color{
+.section-color {
 	background-color: #f3f3f3 !important;
+}
+
+.gall-ar {
+	font-size: 70px !important;
+	font-weight: 500 !important;
+	font-family: 'GE SS Two' !important;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	color: var(--orange) !important;
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	width: fit-content;
+}
+
+.gall-ar2 {
+	font-family: 'GE SS Two' !important;
+	font-size: 40px !important;
+	font-weight: 600 !important;
 }
 
 /* End Arabic CSS */
