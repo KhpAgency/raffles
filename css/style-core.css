@@ -1107,7 +1107,7 @@ input[type="reset"]:focus {
 }
 
 
-.gallery-imgs{
+.gallery-imgs {
 	max-height: 800px;
 }
 
@@ -1392,6 +1392,32 @@ input[type="reset"]:focus {
 
 
 /* End Admission CSS */
+
+
+/* Start Arabic CSS */
+
+.ar-font {
+	font-family: 'GE SS Two' !important;
+	font-weight: 100 !important;
+}
+
+.abt-ar {
+	float: right !important;
+	margin-left: 145px;
+	font-family: 'GE SS';
+}
+
+.ar-float {
+	float: right !important;
+	text-align: right !important;
+
+}
+
+.ar-space{
+	word-spacing: 5px;
+}
+
+/* End Arabic CSS */
 
 
 
@@ -7070,7 +7096,7 @@ body .tribe-bar-views-inner {
 		width: auto !important;
 	}
 
-	.width2{
+	.width2 {
 		width: 100% !important;
 	}
 
@@ -7088,31 +7114,31 @@ body .tribe-bar-views-inner {
 		padding: 0px !important;
 	}
 
-	.pad3{
+	.pad3 {
 		padding-right: 0px !important;
 	}
 
-	.pad4{
+	.pad4 {
 		padding-top: 10% !important;
 	}
 
-	.pad5{
+	.pad5 {
 		padding-bottom: 5% !important;
 	}
 
-	.pad6{
+	.pad6 {
 		padding-bottom: 0px !important;
 	}
 
-	.pad7{
+	.pad7 {
 		padding-top: 50px !important;
 	}
 
-	.pad8{
+	.pad8 {
 		padding-bottom: 40px !important;
 	}
 
-	.pad9{
+	.pad9 {
 		padding-top: 50px !important;
 	}
 
@@ -7130,7 +7156,7 @@ body .tribe-bar-views-inner {
 		margin: 25px 0px 0px -590px !important;
 	}
 
-	.title3{
+	.title3 {
 		font-size: 25px !important;
 	}
 
@@ -7139,15 +7165,15 @@ body .tribe-bar-views-inner {
 		padding: 10px 20px !important;
 	}
 
-	.title5{
+	.title5 {
 		font-size: 22px !important;
 	}
 
-	.title6{
+	.title6 {
 		font-size: 20px !important;
 	}
 
-	.line1{
+	.line1 {
 		margin: 15px 0px 0px -590px !important;
 		min-width: 180px !important;
 	}
@@ -7173,16 +7199,16 @@ body .tribe-bar-views-inner {
 		font-size: 16px !important;
 	}
 
-	.text5{
+	.text5 {
 		font-size: 1.1rem !important;
 	}
 
-	.text6{
+	.text6 {
 		font-size: 1.1rem !important;
 		text-align: justify !important;
 	}
 
-	
+
 	.button1 {
 		padding: 0px 10px !important;
 	}
@@ -7262,9 +7288,9 @@ body .tribe-bar-views-inner {
 		border-radius: 20px;
 	}
 
-	.photo-footer{
-			width: 60% !important;
-			margin-bottom: 30px !important;
+	.photo-footer {
+		width: 60% !important;
+		margin-bottom: 30px !important;
 	}
 
 	.subscription-block-home {
@@ -7306,14 +7332,14 @@ body .tribe-bar-views-inner {
 		/* margin: 0px 8% 0px 8%; */
 	}
 
-	.insta-image{
+	.insta-image {
 		width: 200px !important;
 		height: 200px !important;
 	}
 
-	.caption1{
-			margin: 35px 0px 0px -630px !important;
-			transform: scale(0.8) !important;
+	.caption1 {
+		margin: 35px 0px 0px -630px !important;
+		transform: scale(0.8) !important;
 	}
 
 	.cheif-img {
@@ -7331,7 +7357,7 @@ body .tribe-bar-views-inner {
 	}
 
 	#div_983a_23 {
-		height: 430px !important;		
+		height: 430px !important;
 	}
 
 	.vision-img {
@@ -7373,7 +7399,7 @@ body .tribe-bar-views-inner {
 		height: 300px !important;
 	}
 
-	.height1{
+	.height1 {
 		height: 430px !important;
 	}
 }
@@ -7381,7 +7407,8 @@ body .tribe-bar-views-inner {
 /* responsive end  */
 
 /* arabic start  */
-.text-ar1{
+.text-ar1 {
 	text-align: right !important;
 }
+
 /* arabic end  */
