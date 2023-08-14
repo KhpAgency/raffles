@@ -7397,6 +7397,10 @@ body .tribe-bar-views-inner {
 		padding: 30px 0px !important;
 	}
 
+	.pad11{
+			padding-bottom:170px !important;
+	}
+
 	.title1 {
 		font-size: 16px !important;
 	}
@@ -7641,8 +7645,17 @@ body .tribe-bar-views-inner {
 		margin: 0px 0px 0px 0px !important;
 	}
 
+	.values4 {
+		margin: 0px 0px 0px 0px !important;
+	}
+
 	#div_983a_29 {
 		padding: 40px 0px 0px 0px !important;
+	}
+
+	.objective-img2 {
+		margin-left: 0px !important;
+		padding: 8% 0;
 	}
 
 	.objective-img {
@@ -7652,6 +7665,15 @@ body .tribe-bar-views-inner {
 
 	#div_983a_9 {
 		padding: 40px 0px 80px 0px !important;
+	}
+
+	.programs-index {
+		padding: 30px 0px !important;
+		height: auto;
+	}
+
+	.logomob{
+		width: 120px !important;
 	}
 
 	/* #h3_983a_3b {
@@ -7833,6 +7855,10 @@ body .tribe-bar-views-inner {
 	.scale1 {
 		transform: scale(0.9) !important;
 		margin-top: -50px !important;
+	}
+
+	.subscription-block-riyadh{
+			margin-top: 80% !important;
 	}
 
 }
