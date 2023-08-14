@@ -7463,6 +7463,20 @@ body .tribe-bar-views-inner {
 		text-align: justify !important;
 	}
 
+	.text7{
+		font-size: 15px !important;
+	}
+
+	.text8{
+		font-size: 18px !important;
+	}
+
+	.grid-item-3rows img {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		margin-left: 100px;
+	}
 
 	.button1 {
 		padding: 0px 10px !important;
@@ -7658,9 +7672,9 @@ body .tribe-bar-views-inner {
 		height: 300px !important;
 	}
 
-	.height1 {
+	/* .height1 {
 		height: 430px !important;
-	}
+	} */
 
 	*/ .tp-bullets,
 	.tp-tabs,

@@ -5292,6 +5292,11 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 	padding: 8% 0;
 }
 
+.objective-img2 {
+	margin-left: 111px;
+	padding: 8% 0;
+}
+
 .values {
 	margin: 170px 0px 0px 50px;
 }
@@ -5302,6 +5307,10 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 
 .values3 {
 	margin: 85px 0px 0px 50px;
+}
+
+.values4 {
+    margin: 95px 0px 0px 50px;
 }
 
 /* about end  */
