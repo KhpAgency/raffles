@@ -1469,6 +1469,20 @@ input[type="reset"]:focus {
 	top: -45px;
 }
 
+.abt-mrg {
+	margin-left: 350px;
+}
+
+.dr-font {
+	font-size: 35px !important;
+	font-weight: 400 !important;
+}
+
+.dr-font2 {
+	font-size: 25px !important;
+	font-weight: 400 !important;
+}
+
 .srvs-ar {
 	z-index: 8;
 	white-space: nowrap;
@@ -1630,6 +1644,66 @@ input[type="reset"]:focus {
 	font-family: 'GE SS Two' !important;
 	font-size: 40px !important;
 	font-weight: 600 !important;
+}
+
+.riyad-slide {
+	z-index: 8 !important;
+	/* white-space: nowrap !important; */
+	font-size: 50px !important;
+	/* line-height: 85px !important; */
+	margin-top: 5px !important;
+	font-weight: 500 !important;
+	color: #EB8223 !important;
+	letter-spacing: 0px !important;
+	font-family: 'GE SS Two';
+	/* text-transform: uppercase; */
+	margin-left: -125px !important;
+}
+
+.riyad-slide2 {
+	z-index: 6 !important;
+	background-color: white !important;
+	min-width: 660px !important;
+	margin-left: -115px !important;
+}
+
+.riyad-sec {
+	font-family: 'GE SS Two' !important;
+	font-size: 16px !important;
+	font-weight: 100;
+	font-style: normal !important;
+	text-align: justify;
+	padding: 0px 98px;
+	margin-top: -5px !important;
+	color: black !important;
+	direction: rtl;
+}
+
+.riyad-sec2 {
+	text-transform: none !important;
+	word-spacing: 5px;
+	color: black !important;
+	direction: rtl;
+	font-family: 'GE SS Two' !important;
+	font-size: 1.1rem !important;
+}
+
+
+.prog-ar {
+	font-family: 'GE SS Two' !important;
+	font-size: 55px !important;
+	font-weight: 500 !important;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	color: var(--orange) !important;
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	width: fit-content;
+}
+
+.prog-title-ar {
+	font-family: 'GE SS Two' !important;
+	font-weight: 100 !important;
 }
 
 /* End Arabic CSS */
@@ -7397,8 +7471,8 @@ body .tribe-bar-views-inner {
 		padding: 30px 0px !important;
 	}
 
-	.pad11{
-			padding-bottom:170px !important;
+	.pad11 {
+		padding-bottom: 170px !important;
 	}
 
 	.title1 {
@@ -7467,11 +7541,11 @@ body .tribe-bar-views-inner {
 		text-align: justify !important;
 	}
 
-	.text7{
+	.text7 {
 		font-size: 15px !important;
 	}
 
-	.text8{
+	.text8 {
 		font-size: 18px !important;
 	}
 
@@ -7672,7 +7746,7 @@ body .tribe-bar-views-inner {
 		height: auto;
 	}
 
-	.logomob{
+	.logomob {
 		width: 120px !important;
 	}
 
@@ -7857,8 +7931,8 @@ body .tribe-bar-views-inner {
 		margin-top: -50px !important;
 	}
 
-	.subscription-block-riyadh{
-			margin-top: 80% !important;
+	.subscription-block-riyadh {
+		margin-top: 80% !important;
 	}
 
 }
