@@ -1413,7 +1413,7 @@ input[type="reset"]:focus {
 .ar-float {
 	float: right !important;
 	text-align: right !important;
-	direction: rtl;
+	direction: rtl !important;
 }
 
 .ar-space {
@@ -1703,7 +1703,40 @@ input[type="reset"]:focus {
 
 .prog-title-ar {
 	font-family: 'GE SS Two' !important;
-	font-weight: 100 !important;
+	font-weight: 400 !important;
+	font-size: 1.17rem;
+	color: var(--orange) !important;
+	margin-top: 10px !important;
+}
+
+.found-title-ar {
+	width: 510px;
+	left: 445px !important;
+}
+
+.found-ar {
+	font-family: 'GE SS Two' !important;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform: none;
+	color: #ffffff !important;
+}
+
+.border-study-ar {
+	border-color: var(--orange) !important;
+	border-bottom-width: 5px !important;
+	position: relative;
+	left: 88px;
+	max-width: 285px;
+}
+
+.found-mrg-ar {
+	margin-left: 20px;
+	margin-right: 0px !important;
+}
+
+.module-ar{
+	font-weight: 400 !important;
 }
 
 /* End Arabic CSS */
@@ -7423,15 +7456,15 @@ body .tribe-bar-views-inner {
 		margin-top: 15px !important;
 	}
 
-	.mrg13{
+	.mrg13 {
 		margin-right: 0px !important;
 	}
 
-	.mrg14{
+	.mrg14 {
 		margin-left: 85% !important;
 	}
 
-	.mrg15{
+	.mrg15 {
 		margin-left: 0% !important;
 	}
 
