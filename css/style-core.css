@@ -7349,24 +7349,50 @@ body .tribe-bar-views-inner {
 		padding-right: 165px !important;
 	}
 
+	.abt-ar {
+		float: right !important;
+		margin-left: 262px !important;
+		font-family: 'GE SS';
+	}
+
 	.mrg1 {
 		margin: -30px 0px 0px -120px !important;
+	}
+
+	.mrg1-ar {
+		margin: -30px 0px 0px 150px !important;
 	}
 
 	.mrg2 {
 		margin: -23px 0px 0px -120px !important;
 	}
 
+	.mrg2-ar {
+		margin: -25px 0px 0px 155px !important;
+	}
+
 	.mrg3 {
 		margin: -16px 0px 0px -120px !important;
+	}
+
+	.mrg3-ar {
+		margin: -13px 0px 0px -120px !important;
 	}
 
 	.mrg4 {
 		margin: 65px 0px 0px -120px !important;
 	}
 
+	.mrg4-ar {
+		margin: 55px 0px 0px 131px !important;
+	}
+
 	.mrg5 {
 		margin-bottom: 15px !important;
+	}
+
+	.mrg5-ar {
+		margin-left: 88% !important;
 	}
 
 	.mrg6 {
@@ -7396,6 +7422,19 @@ body .tribe-bar-views-inner {
 	.mrg12 {
 		margin-top: 15px !important;
 	}
+
+	.mrg13{
+		margin-right: 0px !important;
+	}
+
+	.mrg14{
+		margin-left: 85% !important;
+	}
+
+	.mrg15{
+		margin-left: 0% !important;
+	}
+
 
 	.height1 {
 		height: 300px !important;
@@ -7484,9 +7523,19 @@ body .tribe-bar-views-inner {
 		margin: 36px 0px 0px -635px !important;
 	}
 
+	.title2-ar {
+		font-size: 30px !important;
+		margin: 36px 0px 0px -405px !important;
+	}
+
 	.title2b {
 		font-size: 22px !important;
 		margin: 25px 0px 0px -590px !important;
+	}
+
+	.title2b-ar {
+		font-size: 22px !important;
+		margin: 25px 0px 0px -308px !important;
 	}
 
 	.title3 {
@@ -7508,6 +7557,11 @@ body .tribe-bar-views-inner {
 
 	.line1 {
 		margin: 15px 0px 0px -590px !important;
+		min-width: 180px !important;
+	}
+
+	.line1-ar {
+		margin: 15px 0px 0px -393px !important;
 		min-width: 180px !important;
 	}
 
@@ -7689,6 +7743,11 @@ body .tribe-bar-views-inner {
 		transform: scale(0.8) !important;
 	}
 
+	.caption1-ar {
+		margin: 35px 0px 0px -575px !important;
+		transform: scale(0.8) !important;
+	}
+
 	.cheif-img {
 		/* width: 75%; */
 		margin-left: -9% !important;
@@ -7766,6 +7825,16 @@ body .tribe-bar-views-inner {
 		padding: 8% 0 0 0% !important;
 		margin: 0 !important;
 		height: 300px !important;
+	}
+
+	.sense-col-ar {
+		border-top: white solid !important;
+		border-bottom: white solid !important;
+		border-left: none !important;
+		border-right: none !important;
+		padding: 8% 0 0 0% !important;
+		margin: 0 !important;
+		height: 220px !important;
 	}
 
 	/* .height1 {
