@@ -1752,6 +1752,10 @@ input[type="reset"]:focus {
 	font-weight: 400 !important;
 }
 
+.found-font{
+ font-size: 16px !important;
+}
+
 /* End Arabic CSS */
 
 
