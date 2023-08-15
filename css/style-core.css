@@ -7397,6 +7397,10 @@ body .tribe-bar-views-inner {
 		padding: 30px 0px !important;
 	}
 
+	.pad11{
+			padding-bottom:170px !important;
+	}
+
 	.title1 {
 		font-size: 16px !important;
 	}
@@ -7463,6 +7467,20 @@ body .tribe-bar-views-inner {
 		text-align: justify !important;
 	}
 
+	.text7{
+		font-size: 15px !important;
+	}
+
+	.text8{
+		font-size: 18px !important;
+	}
+
+	.grid-item-3rows img {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		margin-left: 100px;
+	}
 
 	.button1 {
 		padding: 0px 10px !important;
@@ -7627,8 +7645,17 @@ body .tribe-bar-views-inner {
 		margin: 0px 0px 0px 0px !important;
 	}
 
+	.values4 {
+		margin: 0px 0px 0px 0px !important;
+	}
+
 	#div_983a_29 {
 		padding: 40px 0px 0px 0px !important;
+	}
+
+	.objective-img2 {
+		margin-left: 0px !important;
+		padding: 8% 0;
 	}
 
 	.objective-img {
@@ -7638,6 +7665,15 @@ body .tribe-bar-views-inner {
 
 	#div_983a_9 {
 		padding: 40px 0px 80px 0px !important;
+	}
+
+	.programs-index {
+		padding: 30px 0px !important;
+		height: auto;
+	}
+
+	.logomob{
+		width: 120px !important;
 	}
 
 	/* #h3_983a_3b {
@@ -7658,9 +7694,9 @@ body .tribe-bar-views-inner {
 		height: 300px !important;
 	}
 
-	.height1 {
+	/* .height1 {
 		height: 430px !important;
-	}
+	} */
 
 	*/ .tp-bullets,
 	.tp-tabs,
@@ -7819,6 +7855,10 @@ body .tribe-bar-views-inner {
 	.scale1 {
 		transform: scale(0.9) !important;
 		margin-top: -50px !important;
+	}
+
+	.subscription-block-riyadh{
+			margin-top: 80% !important;
 	}
 
 }
