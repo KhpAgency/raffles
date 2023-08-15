@@ -736,6 +736,19 @@ input[type="reset"]:focus {
 
 }
 
+
+@font-face {
+	font-family: 'GE SS Two';
+	src: local('GE SS Two Medium'), local('GE SS Two Medium'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff2') format('woff2'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff') format('woff'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  
+
 /* End Fonts */
 
 
@@ -7555,6 +7568,10 @@ body .tribe-bar-views-inner {
 		font-size: 20px !important;
 	}
 
+	.title7 {
+		font-size: 24px !important;
+	}
+
 	.line1 {
 		margin: 15px 0px 0px -590px !important;
 		min-width: 180px !important;
@@ -7815,6 +7832,10 @@ body .tribe-bar-views-inner {
 
 	#div_983a_9a {
 		padding: 40px 0px 0px 0px !important;
+	}
+
+	.abt-mrg {
+		margin-left: 70px !important;
 	}
 
 	.sense-col {
