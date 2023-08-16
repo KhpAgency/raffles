@@ -1431,7 +1431,7 @@ input[type="reset"]:focus {
 .abt-ar {
 	float: right !important;
 	margin-left: 145px;
-	font-family: 'GE SS';
+	font-family: 'GE SS Two';
 }
 
 .ar-float {
@@ -7541,22 +7541,26 @@ body .tribe-bar-views-inner {
 		font-family: 'GE SS';
 	}
 
+	.mwidth1{
+		min-width: 90px !important;
+	}
+
 	.mrg1 {
 		margin: -30px 0px 0px -120px !important;
 	}
 
 	.mrg1-ar {
-		margin: -30px 0px 0px 150px !important;
+		margin: -30px 0px 0px 144px !important;
 	}
-
+	
 	.mrg2 {
 		margin: -23px 0px 0px -120px !important;
 	}
 
 	.mrg2-ar {
-		margin: -25px 0px 0px 155px !important;
+		margin: -25px 0px 0px 133px !important;
 	}
-
+	
 	.mrg3 {
 		margin: -16px 0px 0px -120px !important;
 	}
@@ -7570,7 +7574,7 @@ body .tribe-bar-views-inner {
 	}
 
 	.mrg4-ar {
-		margin: 55px 0px 0px 131px !important;
+		margin: 65px 0px 0px 131px !important;
 	}
 
 	.mrg5 {
@@ -8097,7 +8101,7 @@ body .tribe-bar-views-inner {
 		border-right: none !important;
 		padding: 8% 0 0 0% !important;
 		margin: 0 !important;
-		height: 220px !important;
+		height: 260px !important;
 	}
 
 	/* .height1 {
