@@ -1864,10 +1864,6 @@ input[type="reset"]:focus {
 	margin-top: 25px !important;
 }
 
-.ar-mrg4 {
-	margin-top: 12px !important;
-}
-
 .ar-mrg2 {
 	margin-right: 225px !important;
 	margin-left: 25px !important;
@@ -1875,6 +1871,19 @@ input[type="reset"]:focus {
 
 .ar-mrg3 {
 	margin-left: -245px;
+}
+
+.ar-mrg4 {
+	margin-top: 12px !important;
+}
+
+.ar-mrg5{
+	margin-left: 38px;
+}
+
+.ar-mrg6{
+	margin-right: 90px !important;
+    margin-left: 15px !important;
 }
 
 /* End Arabic CSS */
