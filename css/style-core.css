@@ -1863,6 +1863,7 @@ input[type="reset"]:focus {
 .ar-mrg {
 	margin-top: 25px !important;
 }
+
 .ar-mrg4 {
 	margin-top: 12px !important;
 }
@@ -1872,7 +1873,7 @@ input[type="reset"]:focus {
 	margin-left: 25px !important;
 }
 
-.ar-mrg3{
+.ar-mrg3 {
 	margin-left: -245px;
 }
 
@@ -7541,7 +7542,7 @@ body .tribe-bar-views-inner {
 		font-family: 'GE SS';
 	}
 
-	.mwidth1{
+	.mwidth1 {
 		min-width: 90px !important;
 	}
 
@@ -7552,7 +7553,7 @@ body .tribe-bar-views-inner {
 	.mrg1-ar {
 		margin: -30px 0px 0px 144px !important;
 	}
-	
+
 	.mrg2 {
 		margin: -23px 0px 0px -120px !important;
 	}
@@ -7560,7 +7561,7 @@ body .tribe-bar-views-inner {
 	.mrg2-ar {
 		margin: -25px 0px 0px 133px !important;
 	}
-	
+
 	.mrg3 {
 		margin: -16px 0px 0px -120px !important;
 	}
@@ -7654,7 +7655,8 @@ body .tribe-bar-views-inner {
 	}
 
 	.mrg21 {
-		margin-left: 5px !important;
+		margin-left: -58px !important;
+		margin-top: 3px !important;
 	}
 
 	.lang1 {
@@ -7697,6 +7699,11 @@ body .tribe-bar-views-inner {
 	.width4 {
 		min-width: 101px !important;
 		margin-left: 3px !important;
+	}
+
+	.width4b {
+		min-width: 200px !important;
+		margin-left: -42px !important;
 	}
 
 	.img1 {
@@ -7760,7 +7767,7 @@ body .tribe-bar-views-inner {
 
 	.title2-ar {
 		font-size: 30px !important;
-		margin: 36px 0px 0px -430px !important;
+		margin: 36px 0px 0px -440px !important;
 	}
 
 	.title2b {
@@ -7770,12 +7777,12 @@ body .tribe-bar-views-inner {
 
 	.title2b-ar {
 		font-size: 22px !important;
-		margin: 25px 0px 0px -375px !important;
+		margin: 25px 0px 0px -385px !important;
 	}
 
 	.title2b-ar2 {
 		font-size: 22px !important;
-		margin: 25px 0px 0px -555px !important;
+		margin: 25px 0px 0px -565px !important;
 	}
 
 	.title3 {
@@ -7805,7 +7812,7 @@ body .tribe-bar-views-inner {
 	}
 
 	.line1-ar {
-		margin: 15px 0px 0px -393px !important;
+		margin: 15px 0px 0px -403px !important;
 		min-width: 180px !important;
 	}
 
@@ -8007,7 +8014,7 @@ body .tribe-bar-views-inner {
 	}
 
 	.caption1-ar {
-		margin: 35px 0px 0px -575px !important;
+		margin: 35px 0px 0px -585px !important;
 		transform: scale(0.8) !important;
 	}
 
