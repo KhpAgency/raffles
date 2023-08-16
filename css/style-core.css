@@ -1852,10 +1852,17 @@ input[type="reset"]:focus {
 .ar-mrg {
 	margin-top: 25px !important;
 }
+.ar-mrg4 {
+	margin-top: 12px !important;
+}
 
 .ar-mrg2 {
 	margin-right: 225px !important;
 	margin-left: 25px !important;
+}
+
+.ar-mrg3{
+	margin-left: -245px;
 }
 
 /* End Arabic CSS */
