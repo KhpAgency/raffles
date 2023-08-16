@@ -8177,6 +8177,11 @@ body .tribe-bar-views-inner {
 		width: 175px !important;
 	}
 
+	.line9 {
+		margin: -20px 0px 0px -445px !important;
+		width: 270px !important;
+	}
+
 	.pdiv1 {
 		width: 100% !important;
 		margin: -400px 0px 0px 0px !important;
@@ -8200,6 +8205,12 @@ body .tribe-bar-views-inner {
 
 	.theory-div {
 		margin-left: -85% !important;
+		margin-top: -3% !important;
+	}
+
+	.theory-div2 {
+		padding-right: 25px;
+		margin-left: -99% !important;
 		margin-top: -3% !important;
 	}
 
