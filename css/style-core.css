@@ -1442,13 +1442,13 @@ input[type="reset"]:focus {
 }
 
 .ar-home-title {
-    font-size: 38px !important;
-    font-weight: 700 !important;
-    letter-spacing: 0px !important;
-    text-transform: none !important;
-    color: #ffffff !important;
-    font-family: 'GE SS Two' !important;
-    margin-bottom: 15px !important;
+	font-size: 38px !important;
+	font-weight: 700 !important;
+	letter-spacing: 0px !important;
+	text-transform: none !important;
+	color: #ffffff !important;
+	font-family: 'GE SS Two' !important;
+	margin-bottom: 15px !important;
 }
 
 .home-slider-ar {
@@ -1572,6 +1572,7 @@ input[type="reset"]:focus {
 	font-size: 25px !important;
 	font-weight: 400 !important;
 }
+
 .dr-font3 {
 	font-size: 20px !important;
 	font-weight: 100 !important;
@@ -1835,6 +1836,26 @@ input[type="reset"]:focus {
 
 .found-font {
 	font-size: 16px !important;
+}
+
+.h3-css-vis-ar {
+	font-size: 35px !important;
+	font-weight: 100 !important;
+	letter-spacing: 0px;
+	text-transform: none;
+	color: #ffffff !important;
+	text-align: center;
+	line-height: 65px !important;
+	margin: 0px 0px 0px 0px;
+}
+
+.ar-mrg {
+	margin-top: 25px !important;
+}
+
+.ar-mrg2 {
+	margin-right: 225px !important;
+	margin-left: 25px !important;
 }
 
 /* End Arabic CSS */
