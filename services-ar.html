@@ -196,7 +196,7 @@
                                                                 style="position:absolute;display:block;;">
                                                                 <div class="tp-mask-wrap"
                                                                     style="position: absolute; display: block; overflow: visible;">
-                                                                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme caption1"
+                                                                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme caption1 caption1-ar"
                                                                         id="slide-6-layer-8" data-x="637"
                                                                         data-y="center" data-voffset="-10"
                                                                         data-width="['754']" data-height="['121']"
@@ -218,7 +218,7 @@
                                                                 style="position:absolute;display:block;;">
                                                                 <div class="tp-mask-wrap"
                                                                     style="position: absolute; display: block; overflow: visible;">
-                                                                    <div class="tp-caption srvs-ar tp-resizeme title2"
+                                                                    <div class="tp-caption srvs-ar tp-resizeme title2 title2-ar"
                                                                         id="slide-6-layer-3" data-x="500"
                                                                         data-y="center" data-voffset="-15"
                                                                         data-width="['auto']" data-height="['auto']"
@@ -239,7 +239,7 @@
                                                                 style="position:absolute;display:block;;">
                                                                 <div class="tp-mask-wrap"
                                                                     style="position: absolute; display: block; overflow: visible;">
-                                                                    <div class="tp-caption srvs-ar2 tp-resizeme title2b"
+                                                                    <div class="tp-caption srvs-ar2 tp-resizeme title2b title2b-ar2"
                                                                         id="slide-6-layer-9" data-x="538" data-y="400"
                                                                         data-voffset="129" data-width="['746']"
                                                                         data-height="['auto']" data-type="text"
@@ -261,7 +261,7 @@
                                                                 style="position:absolute;display:block;;">
                                                                 <div class="tp-mask-wrap"
                                                                     style="position: absolute; display: block; overflow: visible;">
-                                                                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme line1"
+                                                                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme line1 line1-ar"
                                                                         id="slide-6-layer-10" data-x="539" data-y="615"
                                                                         data-voffset="201" data-width="['205']"
                                                                         data-height="['6']" data-type="shape"
@@ -407,8 +407,9 @@
                                 TO SEE HOW WE CAN HELP!
                             </h2>
                             <form id="contact" name="contact" action="" method="post">
-                                <input type="email" name="email" id="email" required=""
-                                    placeholder="Type your phone number">
+                                <input id="phone" type="number" name="phone" size="40" placeholder="Type your phone number"
+                                    aria-required="true" aria-invalid="false" required pattern="[+0-9\s]+">
+                                    
                                 <input type="submit" id="submit" name="submit" value="SUBMIT">
                             </form>
                         </div>
