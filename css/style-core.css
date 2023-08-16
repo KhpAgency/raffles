@@ -7485,6 +7485,17 @@ body .tribe-bar-views-inner {
 		margin-left: 0% !important;
 	}
 
+	.mrg16 {
+		margin: 17px 0px 0px 71.5px !important;
+	}
+
+	.mrg17 {
+		margin: 18px 0px 0px 68px !important;
+	}
+
+	.webbox{
+		display: -webkit-box !important;
+	}
 
 	.height1 {
 		height: 300px !important;
