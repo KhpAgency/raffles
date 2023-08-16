@@ -745,9 +745,9 @@ input[type="reset"]:focus {
 		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
-  }
-  
-  
+}
+
+
 
 /* End Fonts */
 
@@ -1433,6 +1433,83 @@ input[type="reset"]:focus {
 	word-spacing: 5px;
 }
 
+.ar-space3 {
+	word-spacing: 4px;
+}
+
+.ar-space2 {
+	letter-spacing: 1px;
+}
+
+.ar-home-title {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    color: #ffffff !important;
+    font-family: 'GE SS Two' !important;
+    margin-bottom: 15px !important;
+}
+
+.home-slider-ar {
+	z-index: 8 !important;
+	white-space: nowrap !important;
+	font-size: 50px !important;
+	line-height: 80px !important;
+	font-weight: 300 !important;
+	color: #ffffff;
+	letter-spacing: 0px !important;
+	font-family: 'GE SS Two';
+	text-transform: uppercase;
+	margin-left: 485px !important;
+}
+
+.home-slider-ar2 {
+	z-index: 6 !important;
+	background-color: rgb(235, 130, 35) !important;
+	margin: 0px 0px 0px 500px !important;
+	visibility: inherit !important;
+	transition: none 0s ease 0s !important;
+	text-align: inherit !important;
+	line-height: 27px !important;
+	border-width: 0px !important;
+	padding: 0px !important;
+	letter-spacing: 0px !important;
+	font-weight: 100 !important;
+	font-size: 16px !important;
+	white-space: nowrap !important;
+	min-height: 100px !important;
+	min-width: 265px !important;
+	max-height: 100px !important;
+	max-width: 220px !important;
+	opacity: 1 !important;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+	transform-origin: 50% 50% 0px !important;
+}
+
+.homear-slider-line {
+	z-index: 10;
+	background-color: rgb(235, 130, 35);
+	margin: 15px 0px 0px 460px;
+	visibility: inherit;
+	transition: none 0s ease 0s;
+	text-align: inherit;
+	line-height: 27px;
+	border-width: 0px;
+	padding: 0px;
+	letter-spacing: 0px;
+	font-weight: 100;
+	font-size: 16px;
+	white-space: nowrap;
+	min-height: 6px;
+	min-width: 285px;
+	max-height: 6px;
+	max-width: 285px;
+	opacity: 1;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	transform-origin: 50% 50% 0px;
+}
+
 .abtus-ar {
 	z-index: 8;
 	white-space: nowrap;
@@ -1494,6 +1571,10 @@ input[type="reset"]:focus {
 .dr-font2 {
 	font-size: 25px !important;
 	font-weight: 400 !important;
+}
+.dr-font3 {
+	font-size: 20px !important;
+	font-weight: 100 !important;
 }
 
 .srvs-ar {
@@ -1748,12 +1829,12 @@ input[type="reset"]:focus {
 	margin-right: 0px !important;
 }
 
-.module-ar{
+.module-ar {
 	font-weight: 400 !important;
 }
 
-.found-font{
- font-size: 16px !important;
+.found-font {
+	font-size: 16px !important;
 }
 
 /* End Arabic CSS */
@@ -7493,7 +7574,7 @@ body .tribe-bar-views-inner {
 		margin: 18px 0px 0px 68px !important;
 	}
 
-	.webbox{
+	.webbox {
 		display: -webkit-box !important;
 	}
 
