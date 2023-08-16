@@ -745,9 +745,9 @@ input[type="reset"]:focus {
 		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
-  }
-  
-  
+}
+
+
 
 /* End Fonts */
 
@@ -1748,12 +1748,12 @@ input[type="reset"]:focus {
 	margin-right: 0px !important;
 }
 
-.module-ar{
+.module-ar {
 	font-weight: 400 !important;
 }
 
-.found-font{
- font-size: 16px !important;
+.found-font {
+	font-size: 16px !important;
 }
 
 /* End Arabic CSS */
@@ -6418,6 +6418,22 @@ li.mm-vertical.mm-opened>.mm-panel {
 	transform: rotate(-45deg)
 }
 
+.mm-arrow:after,
+.mm-next:after {
+	content: '';
+	border: 1px solid transparent;
+	display: block;
+	width: 6px;
+	height: 6px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -135px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(136deg);
+}
+
 .mm-prev:before {
 	border-right: none;
 	border-bottom: none;
@@ -7489,11 +7505,36 @@ body .tribe-bar-views-inner {
 		margin: 17px 0px 0px 71.5px !important;
 	}
 
+	.mrg16-ar {
+		margin: 17px 0px 0px 0px !important;
+	}
+
 	.mrg17 {
 		margin: 18px 0px 0px 68px !important;
 	}
 
-	.webbox{
+	.mrg17-ar {
+		margin: 18px 0px 0px 0px !important;
+	}
+
+	.mrg18 {
+		margin-left: auto !important;
+	}
+
+	.mrg19 {
+		margin: 30px 0px 0px -10px !important;
+	}
+
+	.mrg20 {
+		margin: 35px 0px 0px -13px !important;
+	}
+
+	.lang1 {
+		text-align: right !important;
+		padding-left: 133px !important;
+	}
+
+	.webbox {
 		display: -webkit-box !important;
 	}
 
