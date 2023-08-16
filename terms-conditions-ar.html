@@ -606,8 +606,9 @@
                                 TO SEE HOW WE CAN HELP!
                             </h2>
                             <form id="contact" name="contact" action="" method="post">
-                                <input type="email" name="email" id="email" required=""
-                                    placeholder="Type your phone number">
+                                <input id="phone" type="number" name="phone" size="40" placeholder="Type your phone number"
+                                    aria-required="true" aria-invalid="false" required pattern="[+0-9\s]+">
+                                    
                                 <input type="submit" id="submit" name="submit" value="SUBMIT">
                             </form>
                         </div>

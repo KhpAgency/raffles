@@ -45,7 +45,7 @@
                                         href="index-ar.html">الرئيسية</a>
 
                                 </li>
-                                <li class="menu-item  current-menu-item"><a href="about-us-ar.html" class="text-ar1">من نحن</a>
+                                <li class="menu-item"><a href="about-us-ar.html" class="text-ar1">من نحن</a>
 
                                 </li>
                                 <li class="menu-item"><a href="services-ar.html" class="text-ar1">خدماتنا</a>
@@ -60,7 +60,7 @@
                                         الرياض</a></li>
                                 <li class="menu-item"><a href="collaboration-ar.html" class="text-ar1">تعاون</a></li>
                                 <li class="menu-item"><a href="gallery-ar.html" class="text-ar1">المعرض</a></li>
-                                <li class="menu-item"><a href="contact-ar.html" class="text-ar1">تواصل معنا</a></li>
+                                <li class="menu-item  current-menu-item"><a href="contact-ar.html" class="text-ar1">تواصل معنا</a></li>
                                 <li class="menu-item menu-item-has-children lang1"><a href="#">اللغه</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item webbox"><img src="img/sa-flag.png" width="30" alt="" class="mrg16-ar"><a href="index-ar.html" class="mrg18">اللغه العربيه</a></li>
@@ -211,7 +211,7 @@
 
                                                             <div class="quform-elements">
                                                                 <div class="quform-element">
-                                                                    <p class="labels form-ar">الاسم (مطلوب)
+                                                                    <p class="labels form-ar text-ar1">الاسم (مطلوب)
                                                                         <br>
                                                                         <span class="wpcf7-form-control-wrap your-name">
                                                                             <input id="name" type="text" name="name"
@@ -222,7 +222,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="quform-element">
-                                                                    <p class="labels form-ar">البريد الإلكتروني (مطلوب)
+                                                                    <p class="labels form-ar text-ar1">البريد الإلكتروني (مطلوب)
                                                                         <br>
                                                                         <span
                                                                             class="wpcf7-form-control-wrap your-email">
@@ -234,7 +234,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="quform-element">
-                                                                    <p class="labels form-ar">الهاتف (مطلوب)
+                                                                    <p class="labels form-ar text-ar1">الهاتف (مطلوب)
                                                                         <br>
                                                                         <span
                                                                             class="wpcf7-form-control-wrap your-phone">
@@ -247,7 +247,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="quform-element">
-                                                                    <p class="labels form-ar">رسالة
+                                                                    <p class="labels form-ar text-ar1">رسالة
                                                                         <br>
                                                                         <span
                                                                             class="wpcf7-form-control-wrap your-message">
@@ -298,8 +298,9 @@
                                 TO SEE HOW WE CAN HELP!
                             </h2>
                             <form id="contact" name="contact" action="" method="post">
-                                <input type="email" name="email" id="email" required
-                                    placeholder="Type your phone number">
+                                <input id="phone" type="number" name="phone" size="40" placeholder="Type your phone number"
+                                    aria-required="true" aria-invalid="false" required pattern="[+0-9\s]+">
+                                    
                                 <input type="submit" id="submit" name="submit" value="SUBMIT">
                             </form>
                         </div>
