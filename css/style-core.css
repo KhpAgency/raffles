@@ -1498,6 +1498,7 @@ input[type="reset"]:focus {
 	transform-origin: 50% 50% 0px !important;
 }
 
+
 .homear-slider-line {
 	z-index: 10;
 	background-color: rgb(235, 130, 35);
@@ -1877,13 +1878,13 @@ input[type="reset"]:focus {
 	margin-top: 12px !important;
 }
 
-.ar-mrg5{
+.ar-mrg5 {
 	margin-left: 38px;
 }
 
-.ar-mrg6{
+.ar-mrg6 {
 	margin-right: 90px !important;
-    margin-left: 15px !important;
+	margin-left: 15px !important;
 }
 
 /* End Arabic CSS */
