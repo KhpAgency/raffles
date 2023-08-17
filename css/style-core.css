@@ -1887,6 +1887,16 @@ input[type="reset"]:focus {
 	margin-left: 15px !important;
 }
 
+.ar-mrg7 {
+	margin-right: 215px !important;
+	margin-left: 10px !important;
+}
+
+.ar-mrg8 {
+	margin-right: -10px;
+	text-align: right !important;
+}
+
 /* End Arabic CSS */
 
 
