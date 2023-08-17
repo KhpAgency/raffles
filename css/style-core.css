@@ -1143,6 +1143,10 @@ input[type="reset"]:focus {
 	top: 100px !important;
 }
 
+.subscription-block-gal-ar {
+	top: 175px !important;
+}
+
 
 
 
@@ -7603,8 +7607,8 @@ body .tribe-bar-views-inner {
 
 	.abt-ar {
 		float: right !important;
-		margin-left: 262px !important;
-		font-family: 'GE SS';
+		margin-left: 222px !important;
+		font-family: 'GE SS TWO';
 	}
 
 	.mwidth1 {
