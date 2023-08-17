@@ -7716,7 +7716,13 @@ body .tribe-bar-views-inner {
 		margin: -25px 0px -80px 0;
 	}
 
+	.mrg31 {
+		margin: -25px 0px -70px 0;
+	}
 
+	.mrg32 {
+		margin-top: -130px;
+	}
 
 	.lang1 {
 		text-align: right !important;
@@ -7897,7 +7903,7 @@ body .tribe-bar-views-inner {
 		margin: -15px 0px 0px -429px !important;
 		max-width: 233px !important;
 	}
-	
+
 	.line2-ar {
 		margin: -5px 0px 0px 158px !important;
 		min-width: 290px !important;
@@ -7917,8 +7923,16 @@ body .tribe-bar-views-inner {
 		display: none;
 	}
 
-	#jewd br{
+	#jewd br {
 		display: none;
+	}
+
+	#fdr br {
+		display: none;
+	}
+
+	.gap {
+		gap: 5px !important;
 	}
 
 	.text1 {
@@ -8116,7 +8130,7 @@ body .tribe-bar-views-inner {
 		transform: scale(0.8) !important;
 		min-width: 221px !important;
 	}
-	
+
 	.cheif-img {
 		/* width: 75%; */
 		margin-left: -9% !important;
