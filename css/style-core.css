@@ -7721,6 +7721,51 @@ body .tribe-bar-views-inner {
 		margin-top: 3px !important;
 	}
 
+	.mrg22 {
+		margin-right: 0px !important;
+	}
+
+	.mrg23 {
+		margin-top: 20px !important;
+	}
+
+	.mrg24 {
+		margin-top: -55px;
+	}
+
+	.mrg25 {
+		margin-top: -25px;
+		margin-bottom: -100px;
+	}
+
+	.mrg26 {
+		margin-top: -25px;
+	}
+
+	.mrg27 {
+		margin-bottom: -35px;
+	}
+
+	.mrg28 {
+		margin: -25px 0px -75px 0;
+	}
+
+	.mrg29 {
+		margin-top: -40px;
+	}
+
+	.mrg30 {
+		margin: -25px 0px -80px 0;
+	}
+
+	.mrg31 {
+		margin: -25px 0px -70px 0;
+	}
+
+	.mrg32 {
+		margin-top: -130px;
+	}
+
 	.lang1 {
 		text-align: right !important;
 		padding-left: 133px !important;
@@ -7744,6 +7789,14 @@ body .tribe-bar-views-inner {
 
 	.height4 {
 		height: 180px !important;
+	}
+
+	.height5 {
+		height: 185px !important;
+	}
+
+	.height6 {
+		height: 155px !important;
 	}
 
 	.width1 {
@@ -7878,12 +7931,51 @@ body .tribe-bar-views-inner {
 		min-width: 180px !important;
 	}
 
+	.line3-ar {
+		margin: 15px 0px 0px -465px !important;
+		min-width: 180px !important;
+	}
+
+	.line4-ar {
+		margin: -15px 0px 0px -429px !important;
+		max-width: 215px !important;
+	}
+
+	.line5-ar {
+		margin: -15px 0px 0px -429px !important;
+		max-width: 233px !important;
+	}
+
+	.line2-ar {
+		margin: -5px 0px 0px 158px !important;
+		min-width: 290px !important;
+	}
+
 	.line10 {
 		margin: 15px 0px 0px -505px !important;
 		min-width: 180px !important;
 	}
 
 
+	#vmd br {
+		display: none;
+	}
+
+	#inter br {
+		display: none;
+	}
+
+	#jewd br {
+		display: none;
+	}
+
+	#fdr br {
+		display: none;
+	}
+
+	.gap {
+		gap: 5px !important;
+	}
 
 	.text1 {
 		font-size: 14px !important;
@@ -8076,8 +8168,9 @@ body .tribe-bar-views-inner {
 	}
 
 	.caption1-ar {
-		margin: 35px 0px 0px -585px !important;
+		margin: 35px 0px 0px -419px !important;
 		transform: scale(0.8) !important;
+		min-width: 221px !important;
 	}
 
 	.cheif-img {
@@ -8226,6 +8319,17 @@ body .tribe-bar-views-inner {
 		margin-left: -375px !important;
 	}
 
+	.heading6 {
+		font-size: 25px !important;
+		margin-left: -86px !important;
+		width: max-content;
+	}
+
+	.heading7 {
+		font-size: 25px !important;
+		margin-left: -390px !important;
+	}
+
 	.heading3div {
 		position: relative !important;
 		bottom: 450px;
@@ -8310,7 +8414,7 @@ body .tribe-bar-views-inner {
 		width: 20px;
 		height: 20px;
 		margin-right: 10px;
-		margin-left: 0px !important;
+		margin-left: 5px !important;
 	}
 
 	.grid-container-intr {
