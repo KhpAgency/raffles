@@ -1921,6 +1921,9 @@ input[type="reset"]:focus {
 	margin-right: -160px;
 }
 
+.ar-mrg13{
+	margin-bottom: 20px;
+}
 .course-ar {
 
 	text-transform: uppercase;
