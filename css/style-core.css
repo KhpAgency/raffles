@@ -7350,6 +7350,12 @@ body .tribe-bar-views-inner {
 	color: #333;
 }
 
+.text3-ar {
+	font-family: 'GE SS Two' !important;
+}
+
+
+
 @media only screen and (max-width: 767px) {
 	#gdlr-core-wrapper-1.gdlr-core-pbf-wrapper {
 		margin-top: 0px !important
@@ -8023,12 +8029,13 @@ body .tribe-bar-views-inner {
 	}
 
 	.text3-ar {
-		font-size: 16px !important;
+		font-size: 14px !important;
 		text-align: center !important;
-		margin: 0px 83px !important;
+		margin: 0px 84px !important;
 		padding-top: 20px !important;
 		padding-bottom: 10px !important;
 		line-height: 25px !important;
+		font-family: 'GE SS Two' !important;
 	}
 
 	.text4 {
