@@ -783,6 +783,7 @@ input[type="reset"]:focus {
 
 }
 
+
 /* End Index CSS */
 
 
@@ -1921,9 +1922,10 @@ input[type="reset"]:focus {
 	margin-right: -160px;
 }
 
-.ar-mrg13{
+.ar-mrg13 {
 	margin-bottom: 20px;
 }
+
 .course-ar {
 
 	text-transform: uppercase;
@@ -1947,8 +1949,9 @@ input[type="reset"]:focus {
 }
 
 .mrgterms {
-    margin-top: 25px;
+	margin-top: 25px;
 }
+
 /* End Arabic CSS */
 
 
@@ -7782,7 +7785,7 @@ body .tribe-bar-views-inner {
 		margin-top: -130px;
 	}
 
-	.mrg33{
+	.mrg33 {
 		margin-bottom: 25px;
 	}
 
@@ -7798,7 +7801,7 @@ body .tribe-bar-views-inner {
 		margin-top: 45px;
 	}
 
-	
+
 
 	.lang1 {
 		text-align: right !important;
@@ -8502,7 +8505,7 @@ body .tribe-bar-views-inner {
 	.terms-mrg {
 		margin-right: 0px;
 	}
-	
+
 }
 
 /* responsive end  */
