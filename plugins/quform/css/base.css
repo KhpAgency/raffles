@@ -594,7 +594,7 @@ p.quform-group-description {
 .quform-button-large.quform-submit .quform-submit-inner button span {width: 400px;}
 /*Preset button sizes - full width*/
 .quform-button-full-width.quform-submit .quform-submit-inner,
-.quform-button-full-width.quform-submit .quform-submit-inner button {width: 100%; max-width: 100%; float: none; display: block;}
+.quform-button-full-width.quform-submit .quform-submit-inner button {width: 100%; max-width: 100%; float: left; display: block;}
 .quform-button-full-width.quform-submit .quform-submit-inner {*width: 87%;} /*IE 7 fix*/
 .quform-button-full-width.quform-submit .quform-submit-inner button span {width: 100%;}
 
