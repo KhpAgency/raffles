@@ -8167,7 +8167,7 @@ body .tribe-bar-views-inner {
 
 	.subscription-block-home {
 		/* width: 75%; */
-		margin-top: -100px;
+		margin-top: -225px !important; 
 		display: flex;
 		position: relative;
 		z-index: 2;
@@ -8308,9 +8308,9 @@ body .tribe-bar-views-inner {
 		border-bottom: white solid !important;
 		border-left: none !important;
 		border-right: none !important;
-		padding: 8% 0 0 0% !important;
+		padding: 6% 0 0 0% !important;
 		margin: 0 !important;
-		height: 260px !important;
+		height: 275px !important;
 	}
 
 	/* .height1 {
