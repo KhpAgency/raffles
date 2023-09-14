@@ -8516,3 +8516,9 @@ body .tribe-bar-views-inner {
 }
 
 /* arabic end  */
+
+
+.numb-font{
+	font-family: 'Poppins';
+    font-weight: 600;
+}
